@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD04F8282825FEFE00914062 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04F8272825FEFE00914062 /* AppDelegate.m */; };
+		CD04F82A2825FF0000914062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD04F8292825FF0000914062 /* Assets.xcassets */; };
+		CD04F82D2825FF0000914062 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD04F82B2825FF0000914062 /* MainMenu.xib */; };
+		CD04F82F2825FF0000914062 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04F82E2825FF0000914062 /* main.m */; };
+		CD04F83A2825FF0000914062 /* aronToolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04F8392825FF0000914062 /* aronToolTests.m */; };
+		CD04F8442825FF0000914062 /* aronToolUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04F8432825FF0000914062 /* aronToolUITests.m */; };
+		CD04F8462825FF0000914062 /* aronToolUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04F8452825FF0000914062 /* aronToolUITestsLaunchTests.m */; };
+		CD04F8592825FF2400914062 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD04F8582825FF2400914062 /* Cocoa.framework */; };
+		CD04F85B2825FF2400914062 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD04F85A2825FF2400914062 /* XcodeKit.framework */; };
+		CD04F85F2825FF2400914062 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04F85E2825FF2400914062 /* SourceEditorExtension.m */; };
+		CD04F8622825FF2400914062 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04F8612825FF2400914062 /* SourceEditorCommand.m */; };
+		CD04F8672825FF2400914062 /* aboutImport.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD04F8562825FF2400914062 /* aboutImport.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD04F86D2825FFBD00914062 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD04F86C2825FFBD00914062 /* XcodeKit.framework */; };
+		CD04F86E2825FFBD00914062 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD04F86C2825FFBD00914062 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD6C30802828B0F000ABE14C /* clang-format in Resources */ = {isa = PBXBuildFile; fileRef = CD6C30782828B0F000ABE14C /* clang-format */; };
+		CD6C30812828B0F000ABE14C /* clang-format in Resources */ = {isa = PBXBuildFile; fileRef = CD6C30782828B0F000ABE14C /* clang-format */; };
+		CD6C30E62828DADE00ABE14C /* clang_format_ignore.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD6C30E52828DADE00ABE14C /* clang_format_ignore.txt */; };
+		CD6C30E72828DADE00ABE14C /* clang_format_ignore.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD6C30E52828DADE00ABE14C /* clang_format_ignore.txt */; };
+		CD6C30E82828DADE00ABE14C /* clang_format_ignore.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD6C30E52828DADE00ABE14C /* clang_format_ignore.txt */; };
+		CD6C30E92828DADE00ABE14C /* clang_format_ignore.txt in Resources */ = {isa = PBXBuildFile; fileRef = CD6C30E52828DADE00ABE14C /* clang_format_ignore.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD04F8362825FF0000914062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD04F81B2825FEFE00914062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD04F8222825FEFE00914062;
+			remoteInfo = aronTool;
+		};
+		CD04F8402825FF0000914062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD04F81B2825FEFE00914062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD04F8222825FEFE00914062;
+			remoteInfo = aronTool;
+		};
+		CD04F8652825FF2400914062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD04F81B2825FEFE00914062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD04F8552825FF2400914062;
+			remoteInfo = aboutImport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD04F86B2825FF2400914062 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD04F8672825FF2400914062 /* aboutImport.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F86F2825FFBD00914062 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD04F86E2825FFBD00914062 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD04F8232825FEFE00914062 /* aronTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = aronTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD04F8262825FEFE00914062 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD04F8272825FEFE00914062 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD04F8292825FF0000914062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD04F82C2825FF0000914062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD04F82E2825FF0000914062 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD04F8302825FF0000914062 /* aronTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = aronTool.entitlements; sourceTree = "<group>"; };
+		CD04F8352825FF0000914062 /* aronToolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aronToolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD04F8392825FF0000914062 /* aronToolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aronToolTests.m; sourceTree = "<group>"; };
+		CD04F83F2825FF0000914062 /* aronToolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = aronToolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD04F8432825FF0000914062 /* aronToolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aronToolUITests.m; sourceTree = "<group>"; };
+		CD04F8452825FF0000914062 /* aronToolUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = aronToolUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CD04F8562825FF2400914062 /* aboutImport.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = aboutImport.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD04F8582825FF2400914062 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD04F85A2825FF2400914062 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD04F85D2825FF2400914062 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD04F85E2825FF2400914062 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD04F8602825FF2400914062 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD04F8612825FF2400914062 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD04F8632825FF2400914062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD04F8642825FF2400914062 /* aboutImport.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = aboutImport.entitlements; sourceTree = "<group>"; };
+		CD04F86C2825FFBD00914062 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD6C30782828B0F000ABE14C /* clang-format */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = "clang-format"; sourceTree = "<group>"; };
+		CD6C30E52828DADE00ABE14C /* clang_format_ignore.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = clang_format_ignore.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD04F8202825FEFE00914062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F8322825FF0000914062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F83C2825FF0000914062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F8532825FF2400914062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F86D2825FFBD00914062 /* XcodeKit.framework in Frameworks */,
+				CD04F8592825FF2400914062 /* Cocoa.framework in Frameworks */,
+				CD04F85B2825FF2400914062 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD04F81A2825FEFE00914062 = {
+			isa = PBXGroup;
+			children = (
+				CD04F8252825FEFE00914062 /* aronTool */,
+				CD04F8382825FF0000914062 /* aronToolTests */,
+				CD04F8422825FF0000914062 /* aronToolUITests */,
+				CD04F85C2825FF2400914062 /* aboutImport */,
+				CD04F8572825FF2400914062 /* Frameworks */,
+				CD04F8242825FEFE00914062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD04F8242825FEFE00914062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F8232825FEFE00914062 /* aronTool.app */,
+				CD04F8352825FF0000914062 /* aronToolTests.xctest */,
+				CD04F83F2825FF0000914062 /* aronToolUITests.xctest */,
+				CD04F8562825FF2400914062 /* aboutImport.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD04F8252825FEFE00914062 /* aronTool */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F8262825FEFE00914062 /* AppDelegate.h */,
+				CD04F8272825FEFE00914062 /* AppDelegate.m */,
+				CD04F8292825FF0000914062 /* Assets.xcassets */,
+				CD04F82B2825FF0000914062 /* MainMenu.xib */,
+				CD04F82E2825FF0000914062 /* main.m */,
+				CD04F8302825FF0000914062 /* aronTool.entitlements */,
+				CD6C30752828B0F000ABE14C /* formattest */,
+			);
+			path = aronTool;
+			sourceTree = "<group>";
+		};
+		CD04F8382825FF0000914062 /* aronToolTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F8392825FF0000914062 /* aronToolTests.m */,
+			);
+			path = aronToolTests;
+			sourceTree = "<group>";
+		};
+		CD04F8422825FF0000914062 /* aronToolUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F8432825FF0000914062 /* aronToolUITests.m */,
+				CD04F8452825FF0000914062 /* aronToolUITestsLaunchTests.m */,
+			);
+			path = aronToolUITests;
+			sourceTree = "<group>";
+		};
+		CD04F8572825FF2400914062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F86C2825FFBD00914062 /* XcodeKit.framework */,
+				CD04F8582825FF2400914062 /* Cocoa.framework */,
+				CD04F85A2825FF2400914062 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD04F85C2825FF2400914062 /* aboutImport */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F85D2825FF2400914062 /* SourceEditorExtension.h */,
+				CD04F85E2825FF2400914062 /* SourceEditorExtension.m */,
+				CD04F8602825FF2400914062 /* SourceEditorCommand.h */,
+				CD04F8612825FF2400914062 /* SourceEditorCommand.m */,
+				CD04F8632825FF2400914062 /* Info.plist */,
+				CD04F8642825FF2400914062 /* aboutImport.entitlements */,
+			);
+			path = aboutImport;
+			sourceTree = "<group>";
+		};
+		CD6C30752828B0F000ABE14C /* formattest */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C30E52828DADE00ABE14C /* clang_format_ignore.txt */,
+				CD6C30762828B0F000ABE14C /* tools */,
+			);
+			path = formattest;
+			sourceTree = "<group>";
+		};
+		CD6C30762828B0F000ABE14C /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C30772828B0F000ABE14C /* clang-format */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		CD6C30772828B0F000ABE14C /* clang-format */ = {
+			isa = PBXGroup;
+			children = (
+				CD6C30782828B0F000ABE14C /* clang-format */,
+			);
+			path = "clang-format";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD04F8222825FEFE00914062 /* aronTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD04F8492825FF0000914062 /* Build configuration list for PBXNativeTarget "aronTool" */;
+			buildPhases = (
+				CD04F81F2825FEFE00914062 /* Sources */,
+				CD04F8202825FEFE00914062 /* Frameworks */,
+				CD04F8212825FEFE00914062 /* Resources */,
+				CD04F86B2825FF2400914062 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD04F8662825FF2400914062 /* PBXTargetDependency */,
+			);
+			name = aronTool;
+			productName = aronTool;
+			productReference = CD04F8232825FEFE00914062 /* aronTool.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD04F8342825FF0000914062 /* aronToolTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD04F84C2825FF0000914062 /* Build configuration list for PBXNativeTarget "aronToolTests" */;
+			buildPhases = (
+				CD04F8312825FF0000914062 /* Sources */,
+				CD04F8322825FF0000914062 /* Frameworks */,
+				CD04F8332825FF0000914062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD04F8372825FF0000914062 /* PBXTargetDependency */,
+			);
+			name = aronToolTests;
+			productName = aronToolTests;
+			productReference = CD04F8352825FF0000914062 /* aronToolTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD04F83E2825FF0000914062 /* aronToolUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD04F84F2825FF0000914062 /* Build configuration list for PBXNativeTarget "aronToolUITests" */;
+			buildPhases = (
+				CD04F83B2825FF0000914062 /* Sources */,
+				CD04F83C2825FF0000914062 /* Frameworks */,
+				CD04F83D2825FF0000914062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD04F8412825FF0000914062 /* PBXTargetDependency */,
+			);
+			name = aronToolUITests;
+			productName = aronToolUITests;
+			productReference = CD04F83F2825FF0000914062 /* aronToolUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD04F8552825FF2400914062 /* aboutImport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD04F8682825FF2400914062 /* Build configuration list for PBXNativeTarget "aboutImport" */;
+			buildPhases = (
+				CD04F8522825FF2400914062 /* Sources */,
+				CD04F8532825FF2400914062 /* Frameworks */,
+				CD04F8542825FF2400914062 /* Resources */,
+				CD04F86F2825FFBD00914062 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = aboutImport;
+			productName = aboutImport;
+			productReference = CD04F8562825FF2400914062 /* aboutImport.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD04F81B2825FEFE00914062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CD04F8222825FEFE00914062 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					CD04F8342825FF0000914062 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CD04F8222825FEFE00914062;
+					};
+					CD04F83E2825FF0000914062 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CD04F8222825FEFE00914062;
+					};
+					CD04F8552825FF2400914062 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CD04F81E2825FEFE00914062 /* Build configuration list for PBXProject "aronTool" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD04F81A2825FEFE00914062;
+			productRefGroup = CD04F8242825FEFE00914062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD04F8222825FEFE00914062 /* aronTool */,
+				CD04F8342825FF0000914062 /* aronToolTests */,
+				CD04F83E2825FF0000914062 /* aronToolUITests */,
+				CD04F8552825FF2400914062 /* aboutImport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD04F8212825FEFE00914062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F82A2825FF0000914062 /* Assets.xcassets in Resources */,
+				CD04F82D2825FF0000914062 /* MainMenu.xib in Resources */,
+				CD6C30E62828DADE00ABE14C /* clang_format_ignore.txt in Resources */,
+				CD6C30802828B0F000ABE14C /* clang-format in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F8332825FF0000914062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C30E72828DADE00ABE14C /* clang_format_ignore.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F83D2825FF0000914062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C30E82828DADE00ABE14C /* clang_format_ignore.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F8542825FF2400914062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD6C30812828B0F000ABE14C /* clang-format in Resources */,
+				CD6C30E92828DADE00ABE14C /* clang_format_ignore.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD04F81F2825FEFE00914062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F82F2825FF0000914062 /* main.m in Sources */,
+				CD04F8282825FEFE00914062 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F8312825FF0000914062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F83A2825FF0000914062 /* aronToolTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F83B2825FF0000914062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F8462825FF0000914062 /* aronToolUITestsLaunchTests.m in Sources */,
+				CD04F8442825FF0000914062 /* aronToolUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F8522825FF2400914062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F85F2825FF2400914062 /* SourceEditorExtension.m in Sources */,
+				CD04F8622825FF2400914062 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD04F8372825FF0000914062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD04F8222825FEFE00914062 /* aronTool */;
+			targetProxy = CD04F8362825FF0000914062 /* PBXContainerItemProxy */;
+		};
+		CD04F8412825FF0000914062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD04F8222825FEFE00914062 /* aronTool */;
+			targetProxy = CD04F8402825FF0000914062 /* PBXContainerItemProxy */;
+		};
+		CD04F8662825FF2400914062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD04F8552825FF2400914062 /* aboutImport */;
+			targetProxy = CD04F8652825FF2400914062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD04F82B2825FF0000914062 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD04F82C2825FF0000914062 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD04F8472825FF0000914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD04F8482825FF0000914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD04F84A2825FF0000914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = aronTool/aronTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.aronTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CD04F84B2825FF0000914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = aronTool/aronTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.aronTool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		CD04F84D2825FF0000914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.aronToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aronTool.app/Contents/MacOS/aronTool";
+			};
+			name = Debug;
+		};
+		CD04F84E2825FF0000914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.aronToolTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/aronTool.app/Contents/MacOS/aronTool";
+			};
+			name = Release;
+		};
+		CD04F8502825FF0000914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.aronToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = aronTool;
+			};
+			name = Debug;
+		};
+		CD04F8512825FF0000914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.aronToolUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = aronTool;
+			};
+			name = Release;
+		};
+		CD04F8692825FF2400914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = aboutImport/aboutImport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aboutImport/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = aboutImport;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.aronTool.aboutImport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CD04F86A2825FF2400914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = aboutImport/aboutImport.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aboutImport/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = aboutImport;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.aronTool.aboutImport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD04F81E2825FEFE00914062 /* Build configuration list for PBXProject "aronTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F8472825FF0000914062 /* Debug */,
+				CD04F8482825FF0000914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD04F8492825FF0000914062 /* Build configuration list for PBXNativeTarget "aronTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F84A2825FF0000914062 /* Debug */,
+				CD04F84B2825FF0000914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD04F84C2825FF0000914062 /* Build configuration list for PBXNativeTarget "aronToolTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F84D2825FF0000914062 /* Debug */,
+				CD04F84E2825FF0000914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD04F84F2825FF0000914062 /* Build configuration list for PBXNativeTarget "aronToolUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F8502825FF0000914062 /* Debug */,
+				CD04F8512825FF0000914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD04F8682825FF2400914062 /* Build configuration list for PBXNativeTarget "aboutImport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F8692825FF2400914062 /* Debug */,
+				CD04F86A2825FF2400914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD04F81B2825FEFE00914062 /* Project object */;
+}

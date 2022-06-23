@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD35E3612807F26E00B3BE27 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35E3602807F26E00B3BE27 /* AppDelegate.m */; };
+		CD35E3632807F27000B3BE27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD35E3622807F27000B3BE27 /* Assets.xcassets */; };
+		CD35E3662807F27000B3BE27 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD35E3642807F27000B3BE27 /* MainMenu.xib */; };
+		CD35E3692807F27000B3BE27 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35E3682807F27000B3BE27 /* main.m */; };
+		CD35E3742807F27000B3BE27 /* XTExtensionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35E3732807F27000B3BE27 /* XTExtensionTests.m */; };
+		CD35E37F2807F27000B3BE27 /* XTExtensionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35E37E2807F27000B3BE27 /* XTExtensionUITests.m */; };
+		CD35E3932807F29000B3BE27 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35E3922807F29000B3BE27 /* Cocoa.framework */; };
+		CD35E3952807F29000B3BE27 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35E3942807F29000B3BE27 /* XcodeKit.framework */; };
+		CD35E3992807F29000B3BE27 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35E3982807F29000B3BE27 /* SourceEditorExtension.m */; };
+		CD35E39C2807F29000B3BE27 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD35E39B2807F29000B3BE27 /* SourceEditorCommand.m */; };
+		CD35E3A12807F29000B3BE27 /* XTComment.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD35E3902807F29000B3BE27 /* XTComment.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD35E3A72807F56100B3BE27 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD35E3A62807F56100B3BE27 /* XcodeKit.framework */; };
+		CD35E3A82807F56100B3BE27 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD35E3A62807F56100B3BE27 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD35E3702807F27000B3BE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD35E3542807F26E00B3BE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD35E35B2807F26E00B3BE27;
+			remoteInfo = XTExtension;
+		};
+		CD35E37B2807F27000B3BE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD35E3542807F26E00B3BE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD35E35B2807F26E00B3BE27;
+			remoteInfo = XTExtension;
+		};
+		CD35E39F2807F29000B3BE27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD35E3542807F26E00B3BE27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD35E38F2807F29000B3BE27;
+			remoteInfo = XTComment;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD35E3A52807F29000B3BE27 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD35E3A12807F29000B3BE27 /* XTComment.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35E3A92807F56100B3BE27 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD35E3A82807F56100B3BE27 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD35E35C2807F26E00B3BE27 /* XTExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XTExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD35E35F2807F26E00B3BE27 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD35E3602807F26E00B3BE27 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD35E3622807F27000B3BE27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD35E3652807F27000B3BE27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD35E3672807F27000B3BE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD35E3682807F27000B3BE27 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD35E36A2807F27000B3BE27 /* XTExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XTExtension.entitlements; sourceTree = "<group>"; };
+		CD35E36F2807F27000B3BE27 /* XTExtensionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTExtensionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD35E3732807F27000B3BE27 /* XTExtensionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTExtensionTests.m; sourceTree = "<group>"; };
+		CD35E3752807F27000B3BE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD35E37A2807F27000B3BE27 /* XTExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XTExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD35E37E2807F27000B3BE27 /* XTExtensionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XTExtensionUITests.m; sourceTree = "<group>"; };
+		CD35E3802807F27000B3BE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD35E3902807F29000B3BE27 /* XTComment.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XTComment.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD35E3922807F29000B3BE27 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD35E3942807F29000B3BE27 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD35E3972807F29000B3BE27 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD35E3982807F29000B3BE27 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD35E39A2807F29000B3BE27 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD35E39B2807F29000B3BE27 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD35E39D2807F29000B3BE27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD35E39E2807F29000B3BE27 /* XTComment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XTComment.entitlements; sourceTree = "<group>"; };
+		CD35E3A62807F56100B3BE27 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD35E3592807F26E00B3BE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35E36C2807F27000B3BE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35E3772807F27000B3BE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35E38D2807F29000B3BE27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD35E3A72807F56100B3BE27 /* XcodeKit.framework in Frameworks */,
+				CD35E3932807F29000B3BE27 /* Cocoa.framework in Frameworks */,
+				CD35E3952807F29000B3BE27 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD35E3532807F26E00B3BE27 = {
+			isa = PBXGroup;
+			children = (
+				CD35E35E2807F26E00B3BE27 /* XTExtension */,
+				CD35E3722807F27000B3BE27 /* XTExtensionTests */,
+				CD35E37D2807F27000B3BE27 /* XTExtensionUITests */,
+				CD35E3962807F29000B3BE27 /* XTComment */,
+				CD35E3912807F29000B3BE27 /* Frameworks */,
+				CD35E35D2807F26E00B3BE27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD35E35D2807F26E00B3BE27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD35E35C2807F26E00B3BE27 /* XTExtension.app */,
+				CD35E36F2807F27000B3BE27 /* XTExtensionTests.xctest */,
+				CD35E37A2807F27000B3BE27 /* XTExtensionUITests.xctest */,
+				CD35E3902807F29000B3BE27 /* XTComment.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD35E35E2807F26E00B3BE27 /* XTExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CD35E35F2807F26E00B3BE27 /* AppDelegate.h */,
+				CD35E3602807F26E00B3BE27 /* AppDelegate.m */,
+				CD35E3622807F27000B3BE27 /* Assets.xcassets */,
+				CD35E3642807F27000B3BE27 /* MainMenu.xib */,
+				CD35E3672807F27000B3BE27 /* Info.plist */,
+				CD35E3682807F27000B3BE27 /* main.m */,
+				CD35E36A2807F27000B3BE27 /* XTExtension.entitlements */,
+			);
+			path = XTExtension;
+			sourceTree = "<group>";
+		};
+		CD35E3722807F27000B3BE27 /* XTExtensionTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD35E3732807F27000B3BE27 /* XTExtensionTests.m */,
+				CD35E3752807F27000B3BE27 /* Info.plist */,
+			);
+			path = XTExtensionTests;
+			sourceTree = "<group>";
+		};
+		CD35E37D2807F27000B3BE27 /* XTExtensionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD35E37E2807F27000B3BE27 /* XTExtensionUITests.m */,
+				CD35E3802807F27000B3BE27 /* Info.plist */,
+			);
+			path = XTExtensionUITests;
+			sourceTree = "<group>";
+		};
+		CD35E3912807F29000B3BE27 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD35E3A62807F56100B3BE27 /* XcodeKit.framework */,
+				CD35E3922807F29000B3BE27 /* Cocoa.framework */,
+				CD35E3942807F29000B3BE27 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD35E3962807F29000B3BE27 /* XTComment */ = {
+			isa = PBXGroup;
+			children = (
+				CD35E3972807F29000B3BE27 /* SourceEditorExtension.h */,
+				CD35E3982807F29000B3BE27 /* SourceEditorExtension.m */,
+				CD35E39A2807F29000B3BE27 /* SourceEditorCommand.h */,
+				CD35E39B2807F29000B3BE27 /* SourceEditorCommand.m */,
+				CD35E39D2807F29000B3BE27 /* Info.plist */,
+				CD35E39E2807F29000B3BE27 /* XTComment.entitlements */,
+			);
+			path = XTComment;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD35E35B2807F26E00B3BE27 /* XTExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD35E3832807F27000B3BE27 /* Build configuration list for PBXNativeTarget "XTExtension" */;
+			buildPhases = (
+				CD35E3582807F26E00B3BE27 /* Sources */,
+				CD35E3592807F26E00B3BE27 /* Frameworks */,
+				CD35E35A2807F26E00B3BE27 /* Resources */,
+				CD35E3A52807F29000B3BE27 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD35E3A02807F29000B3BE27 /* PBXTargetDependency */,
+			);
+			name = XTExtension;
+			productName = XTExtension;
+			productReference = CD35E35C2807F26E00B3BE27 /* XTExtension.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD35E36E2807F27000B3BE27 /* XTExtensionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD35E3862807F27000B3BE27 /* Build configuration list for PBXNativeTarget "XTExtensionTests" */;
+			buildPhases = (
+				CD35E36B2807F27000B3BE27 /* Sources */,
+				CD35E36C2807F27000B3BE27 /* Frameworks */,
+				CD35E36D2807F27000B3BE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD35E3712807F27000B3BE27 /* PBXTargetDependency */,
+			);
+			name = XTExtensionTests;
+			productName = XTExtensionTests;
+			productReference = CD35E36F2807F27000B3BE27 /* XTExtensionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD35E3792807F27000B3BE27 /* XTExtensionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD35E3892807F27000B3BE27 /* Build configuration list for PBXNativeTarget "XTExtensionUITests" */;
+			buildPhases = (
+				CD35E3762807F27000B3BE27 /* Sources */,
+				CD35E3772807F27000B3BE27 /* Frameworks */,
+				CD35E3782807F27000B3BE27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD35E37C2807F27000B3BE27 /* PBXTargetDependency */,
+			);
+			name = XTExtensionUITests;
+			productName = XTExtensionUITests;
+			productReference = CD35E37A2807F27000B3BE27 /* XTExtensionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD35E38F2807F29000B3BE27 /* XTComment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD35E3A22807F29000B3BE27 /* Build configuration list for PBXNativeTarget "XTComment" */;
+			buildPhases = (
+				CD35E38C2807F29000B3BE27 /* Sources */,
+				CD35E38D2807F29000B3BE27 /* Frameworks */,
+				CD35E38E2807F29000B3BE27 /* Resources */,
+				CD35E3A92807F56100B3BE27 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTComment;
+			productName = XTComment;
+			productReference = CD35E3902807F29000B3BE27 /* XTComment.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD35E3542807F26E00B3BE27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CD35E35B2807F26E00B3BE27 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CD35E36E2807F27000B3BE27 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CD35E35B2807F26E00B3BE27;
+					};
+					CD35E3792807F27000B3BE27 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CD35E35B2807F26E00B3BE27;
+					};
+					CD35E38F2807F29000B3BE27 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = CD35E3572807F26E00B3BE27 /* Build configuration list for PBXProject "XTExtension" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD35E3532807F26E00B3BE27;
+			productRefGroup = CD35E35D2807F26E00B3BE27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD35E35B2807F26E00B3BE27 /* XTExtension */,
+				CD35E36E2807F27000B3BE27 /* XTExtensionTests */,
+				CD35E3792807F27000B3BE27 /* XTExtensionUITests */,
+				CD35E38F2807F29000B3BE27 /* XTComment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD35E35A2807F26E00B3BE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD35E3632807F27000B3BE27 /* Assets.xcassets in Resources */,
+				CD35E3662807F27000B3BE27 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35E36D2807F27000B3BE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35E3782807F27000B3BE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35E38E2807F29000B3BE27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD35E3582807F26E00B3BE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD35E3692807F27000B3BE27 /* main.m in Sources */,
+				CD35E3612807F26E00B3BE27 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35E36B2807F27000B3BE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD35E3742807F27000B3BE27 /* XTExtensionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35E3762807F27000B3BE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD35E37F2807F27000B3BE27 /* XTExtensionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD35E38C2807F29000B3BE27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD35E3992807F29000B3BE27 /* SourceEditorExtension.m in Sources */,
+				CD35E39C2807F29000B3BE27 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD35E3712807F27000B3BE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD35E35B2807F26E00B3BE27 /* XTExtension */;
+			targetProxy = CD35E3702807F27000B3BE27 /* PBXContainerItemProxy */;
+		};
+		CD35E37C2807F27000B3BE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD35E35B2807F26E00B3BE27 /* XTExtension */;
+			targetProxy = CD35E37B2807F27000B3BE27 /* PBXContainerItemProxy */;
+		};
+		CD35E3A02807F29000B3BE27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD35E38F2807F29000B3BE27 /* XTComment */;
+			targetProxy = CD35E39F2807F29000B3BE27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD35E3642807F27000B3BE27 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD35E3652807F27000B3BE27 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD35E3812807F27000B3BE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD35E3822807F27000B3BE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD35E3842807F27000B3BE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XTExtension/XTExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XTExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.XTExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD35E3852807F27000B3BE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = XTExtension/XTExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XTExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.XTExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD35E3872807F27000B3BE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = XTExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.XTExtensionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTExtension.app/Contents/MacOS/XTExtension";
+			};
+			name = Debug;
+		};
+		CD35E3882807F27000B3BE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = XTExtensionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.XTExtensionTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XTExtension.app/Contents/MacOS/XTExtension";
+			};
+			name = Release;
+		};
+		CD35E38A2807F27000B3BE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = XTExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.XTExtensionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XTExtension;
+			};
+			name = Debug;
+		};
+		CD35E38B2807F27000B3BE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = XTExtensionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.XTExtensionUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XTExtension;
+			};
+			name = Release;
+		};
+		CD35E3A32807F29000B3BE27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XTComment/XTComment.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XTComment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.XTExtension.XTComment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD35E3A42807F29000B3BE27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XTComment/XTComment.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XTComment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.XTExtension.XTComment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD35E3572807F26E00B3BE27 /* Build configuration list for PBXProject "XTExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD35E3812807F27000B3BE27 /* Debug */,
+				CD35E3822807F27000B3BE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD35E3832807F27000B3BE27 /* Build configuration list for PBXNativeTarget "XTExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD35E3842807F27000B3BE27 /* Debug */,
+				CD35E3852807F27000B3BE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD35E3862807F27000B3BE27 /* Build configuration list for PBXNativeTarget "XTExtensionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD35E3872807F27000B3BE27 /* Debug */,
+				CD35E3882807F27000B3BE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD35E3892807F27000B3BE27 /* Build configuration list for PBXNativeTarget "XTExtensionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD35E38A2807F27000B3BE27 /* Debug */,
+				CD35E38B2807F27000B3BE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD35E3A22807F29000B3BE27 /* Build configuration list for PBXNativeTarget "XTComment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD35E3A32807F29000B3BE27 /* Debug */,
+				CD35E3A42807F29000B3BE27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD35E3542807F26E00B3BE27 /* Project object */;
+}

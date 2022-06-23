@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD04F75A2823A30300914062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F7592823A30300914062 /* AppDelegate.swift */; };
+		CD04F75C2823A30500914062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD04F75B2823A30500914062 /* Assets.xcassets */; };
+		CD04F75F2823A30500914062 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD04F75D2823A30500914062 /* MainMenu.xib */; };
+		CD04F76A2823A30500914062 /* Snowonder_swiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F7692823A30500914062 /* Snowonder_swiftTests.swift */; };
+		CD04F7742823A30500914062 /* Snowonder_swiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F7732823A30500914062 /* Snowonder_swiftUITests.swift */; };
+		CD04F7762823A30500914062 /* Snowonder_swiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F7752823A30500914062 /* Snowonder_swiftUITestsLaunchTests.swift */; };
+		CD04F7892823A35200914062 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD04F7882823A35200914062 /* Cocoa.framework */; };
+		CD04F78B2823A35200914062 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD04F78A2823A35200914062 /* XcodeKit.framework */; };
+		CD04F78E2823A35200914062 /* SourceEditorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F78D2823A35200914062 /* SourceEditorExtension.swift */; };
+		CD04F7902823A35200914062 /* SourceEditorCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F78F2823A35200914062 /* SourceEditorCommand.swift */; };
+		CD04F7952823A35300914062 /* Snowonder Extension swift.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD04F7862823A35200914062 /* Snowonder Extension swift.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD04F79B2823A36800914062 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD04F79A2823A36800914062 /* XcodeKit.framework */; };
+		CD04F79C2823A36800914062 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD04F79A2823A36800914062 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD04F79F2823A3B000914062 /* ImportBlockDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F79E2823A3B000914062 /* ImportBlockDetector.swift */; };
+		CD04F7A12823A4CD00914062 /* ImportCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F7A02823A4CD00914062 /* ImportCategory.swift */; };
+		CD04F7A32823A4EF00914062 /* ImportBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F7A22823A4EF00914062 /* ImportBlock.swift */; };
+		CD04F7A52823A53D00914062 /* ImportBlockFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F7A42823A53D00914062 /* ImportBlockFormatter.swift */; };
+		CD04F7A72823A7B200914062 /* SourceTextBufferEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD04F7A62823A7B200914062 /* SourceTextBufferEditor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD04F7662823A30500914062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD04F74E2823A30300914062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD04F7552823A30300914062;
+			remoteInfo = "Snowonder-swift";
+		};
+		CD04F7702823A30500914062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD04F74E2823A30300914062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD04F7552823A30300914062;
+			remoteInfo = "Snowonder-swift";
+		};
+		CD04F7932823A35300914062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD04F74E2823A30300914062 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD04F7852823A35200914062;
+			remoteInfo = "Snowonder Extension swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD04F7992823A35300914062 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD04F7952823A35300914062 /* Snowonder Extension swift.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F79D2823A36900914062 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD04F79C2823A36800914062 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD04F7562823A30300914062 /* Snowonder-swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Snowonder-swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD04F7592823A30300914062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD04F75B2823A30500914062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD04F75E2823A30500914062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD04F7602823A30500914062 /* Snowonder_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snowonder_swift.entitlements; sourceTree = "<group>"; };
+		CD04F7652823A30500914062 /* Snowonder-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowonder-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD04F7692823A30500914062 /* Snowonder_swiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowonder_swiftTests.swift; sourceTree = "<group>"; };
+		CD04F76F2823A30500914062 /* Snowonder-swiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Snowonder-swiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD04F7732823A30500914062 /* Snowonder_swiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowonder_swiftUITests.swift; sourceTree = "<group>"; };
+		CD04F7752823A30500914062 /* Snowonder_swiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snowonder_swiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CD04F7862823A35200914062 /* Snowonder Extension swift.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Snowonder Extension swift.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD04F7882823A35200914062 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD04F78A2823A35200914062 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD04F78D2823A35200914062 /* SourceEditorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorExtension.swift; sourceTree = "<group>"; };
+		CD04F78F2823A35200914062 /* SourceEditorCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceEditorCommand.swift; sourceTree = "<group>"; };
+		CD04F7912823A35200914062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD04F7922823A35200914062 /* Snowonder_Extension_swift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snowonder_Extension_swift.entitlements; sourceTree = "<group>"; };
+		CD04F79A2823A36800914062 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD04F79E2823A3B000914062 /* ImportBlockDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportBlockDetector.swift; sourceTree = "<group>"; };
+		CD04F7A02823A4CD00914062 /* ImportCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportCategory.swift; sourceTree = "<group>"; };
+		CD04F7A22823A4EF00914062 /* ImportBlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportBlock.swift; sourceTree = "<group>"; };
+		CD04F7A42823A53D00914062 /* ImportBlockFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportBlockFormatter.swift; sourceTree = "<group>"; };
+		CD04F7A62823A7B200914062 /* SourceTextBufferEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceTextBufferEditor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD04F7532823A30300914062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F7622823A30500914062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F76C2823A30500914062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F7832823A35200914062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F79B2823A36800914062 /* XcodeKit.framework in Frameworks */,
+				CD04F7892823A35200914062 /* Cocoa.framework in Frameworks */,
+				CD04F78B2823A35200914062 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD04F74D2823A30300914062 = {
+			isa = PBXGroup;
+			children = (
+				CD04F7582823A30300914062 /* Snowonder-swift */,
+				CD04F7682823A30500914062 /* Snowonder-swiftTests */,
+				CD04F7722823A30500914062 /* Snowonder-swiftUITests */,
+				CD04F78C2823A35200914062 /* Snowonder Extension swift */,
+				CD04F7872823A35200914062 /* Frameworks */,
+				CD04F7572823A30300914062 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD04F7572823A30300914062 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F7562823A30300914062 /* Snowonder-swift.app */,
+				CD04F7652823A30500914062 /* Snowonder-swiftTests.xctest */,
+				CD04F76F2823A30500914062 /* Snowonder-swiftUITests.xctest */,
+				CD04F7862823A35200914062 /* Snowonder Extension swift.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD04F7582823A30300914062 /* Snowonder-swift */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F7592823A30300914062 /* AppDelegate.swift */,
+				CD04F75B2823A30500914062 /* Assets.xcassets */,
+				CD04F75D2823A30500914062 /* MainMenu.xib */,
+				CD04F7602823A30500914062 /* Snowonder_swift.entitlements */,
+			);
+			path = "Snowonder-swift";
+			sourceTree = "<group>";
+		};
+		CD04F7682823A30500914062 /* Snowonder-swiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F7692823A30500914062 /* Snowonder_swiftTests.swift */,
+			);
+			path = "Snowonder-swiftTests";
+			sourceTree = "<group>";
+		};
+		CD04F7722823A30500914062 /* Snowonder-swiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F7732823A30500914062 /* Snowonder_swiftUITests.swift */,
+				CD04F7752823A30500914062 /* Snowonder_swiftUITestsLaunchTests.swift */,
+			);
+			path = "Snowonder-swiftUITests";
+			sourceTree = "<group>";
+		};
+		CD04F7872823A35200914062 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F79A2823A36800914062 /* XcodeKit.framework */,
+				CD04F7882823A35200914062 /* Cocoa.framework */,
+				CD04F78A2823A35200914062 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD04F78C2823A35200914062 /* Snowonder Extension swift */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F78D2823A35200914062 /* SourceEditorExtension.swift */,
+				CD04F78F2823A35200914062 /* SourceEditorCommand.swift */,
+				CD04F7912823A35200914062 /* Info.plist */,
+				CD04F7922823A35200914062 /* Snowonder_Extension_swift.entitlements */,
+				CD04F79E2823A3B000914062 /* ImportBlockDetector.swift */,
+				CD04F7A02823A4CD00914062 /* ImportCategory.swift */,
+				CD04F7A22823A4EF00914062 /* ImportBlock.swift */,
+				CD04F7A42823A53D00914062 /* ImportBlockFormatter.swift */,
+				CD04F7A62823A7B200914062 /* SourceTextBufferEditor.swift */,
+			);
+			path = "Snowonder Extension swift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD04F7552823A30300914062 /* Snowonder-swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD04F7792823A30500914062 /* Build configuration list for PBXNativeTarget "Snowonder-swift" */;
+			buildPhases = (
+				CD04F7522823A30300914062 /* Sources */,
+				CD04F7532823A30300914062 /* Frameworks */,
+				CD04F7542823A30300914062 /* Resources */,
+				CD04F7992823A35300914062 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD04F7942823A35300914062 /* PBXTargetDependency */,
+			);
+			name = "Snowonder-swift";
+			productName = "Snowonder-swift";
+			productReference = CD04F7562823A30300914062 /* Snowonder-swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD04F7642823A30500914062 /* Snowonder-swiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD04F77C2823A30500914062 /* Build configuration list for PBXNativeTarget "Snowonder-swiftTests" */;
+			buildPhases = (
+				CD04F7612823A30500914062 /* Sources */,
+				CD04F7622823A30500914062 /* Frameworks */,
+				CD04F7632823A30500914062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD04F7672823A30500914062 /* PBXTargetDependency */,
+			);
+			name = "Snowonder-swiftTests";
+			productName = "Snowonder-swiftTests";
+			productReference = CD04F7652823A30500914062 /* Snowonder-swiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD04F76E2823A30500914062 /* Snowonder-swiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD04F77F2823A30500914062 /* Build configuration list for PBXNativeTarget "Snowonder-swiftUITests" */;
+			buildPhases = (
+				CD04F76B2823A30500914062 /* Sources */,
+				CD04F76C2823A30500914062 /* Frameworks */,
+				CD04F76D2823A30500914062 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD04F7712823A30500914062 /* PBXTargetDependency */,
+			);
+			name = "Snowonder-swiftUITests";
+			productName = "Snowonder-swiftUITests";
+			productReference = CD04F76F2823A30500914062 /* Snowonder-swiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD04F7852823A35200914062 /* Snowonder Extension swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD04F7962823A35300914062 /* Build configuration list for PBXNativeTarget "Snowonder Extension swift" */;
+			buildPhases = (
+				CD04F7822823A35200914062 /* Sources */,
+				CD04F7832823A35200914062 /* Frameworks */,
+				CD04F7842823A35200914062 /* Resources */,
+				CD04F79D2823A36900914062 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snowonder Extension swift";
+			productName = "Snowonder Extension swift";
+			productReference = CD04F7862823A35200914062 /* Snowonder Extension swift.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD04F74E2823A30300914062 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					CD04F7552823A30300914062 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					CD04F7642823A30500914062 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CD04F7552823A30300914062;
+					};
+					CD04F76E2823A30500914062 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = CD04F7552823A30300914062;
+					};
+					CD04F7852823A35200914062 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CD04F7512823A30300914062 /* Build configuration list for PBXProject "Snowonder-swift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD04F74D2823A30300914062;
+			productRefGroup = CD04F7572823A30300914062 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD04F7552823A30300914062 /* Snowonder-swift */,
+				CD04F7642823A30500914062 /* Snowonder-swiftTests */,
+				CD04F76E2823A30500914062 /* Snowonder-swiftUITests */,
+				CD04F7852823A35200914062 /* Snowonder Extension swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD04F7542823A30300914062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F75C2823A30500914062 /* Assets.xcassets in Resources */,
+				CD04F75F2823A30500914062 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F7632823A30500914062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F76D2823A30500914062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F7842823A35200914062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD04F7522823A30300914062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F75A2823A30300914062 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F7612823A30500914062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F76A2823A30500914062 /* Snowonder_swiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F76B2823A30500914062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F7762823A30500914062 /* Snowonder_swiftUITestsLaunchTests.swift in Sources */,
+				CD04F7742823A30500914062 /* Snowonder_swiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD04F7822823A35200914062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F7A72823A7B200914062 /* SourceTextBufferEditor.swift in Sources */,
+				CD04F7A12823A4CD00914062 /* ImportCategory.swift in Sources */,
+				CD04F79F2823A3B000914062 /* ImportBlockDetector.swift in Sources */,
+				CD04F78E2823A35200914062 /* SourceEditorExtension.swift in Sources */,
+				CD04F7902823A35200914062 /* SourceEditorCommand.swift in Sources */,
+				CD04F7A32823A4EF00914062 /* ImportBlock.swift in Sources */,
+				CD04F7A52823A53D00914062 /* ImportBlockFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD04F7672823A30500914062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD04F7552823A30300914062 /* Snowonder-swift */;
+			targetProxy = CD04F7662823A30500914062 /* PBXContainerItemProxy */;
+		};
+		CD04F7712823A30500914062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD04F7552823A30300914062 /* Snowonder-swift */;
+			targetProxy = CD04F7702823A30500914062 /* PBXContainerItemProxy */;
+		};
+		CD04F7942823A35300914062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD04F7852823A35200914062 /* Snowonder Extension swift */;
+			targetProxy = CD04F7932823A35300914062 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD04F75D2823A30500914062 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD04F75E2823A30500914062 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD04F7772823A30500914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CD04F7782823A30500914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CD04F77A2823A30500914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Snowonder-swift/Snowonder_swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.Snowonder-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD04F77B2823A30500914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Snowonder-swift/Snowonder_swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.Snowonder-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CD04F77D2823A30500914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.Snowonder-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowonder-swift.app/Contents/MacOS/Snowonder-swift";
+			};
+			name = Debug;
+		};
+		CD04F77E2823A30500914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.Snowonder-swiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Snowonder-swift.app/Contents/MacOS/Snowonder-swift";
+			};
+			name = Release;
+		};
+		CD04F7802823A30500914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.Snowonder-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Snowonder-swift";
+			};
+			name = Debug;
+		};
+		CD04F7812823A30500914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.Snowonder-swiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Snowonder-swift";
+			};
+			name = Release;
+		};
+		CD04F7972823A35300914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Snowonder Extension swift/Snowonder_Extension_swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snowonder Extension swift/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Snowonder Extension swift";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.Snowonder-swift.Snowonder-Extension-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CD04F7982823A35300914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Snowonder Extension swift/Snowonder_Extension_swift.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snowonder Extension swift/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Snowonder Extension swift";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.Snowonder-swift.Snowonder-Extension-swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD04F7512823A30300914062 /* Build configuration list for PBXProject "Snowonder-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F7772823A30500914062 /* Debug */,
+				CD04F7782823A30500914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD04F7792823A30500914062 /* Build configuration list for PBXNativeTarget "Snowonder-swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F77A2823A30500914062 /* Debug */,
+				CD04F77B2823A30500914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD04F77C2823A30500914062 /* Build configuration list for PBXNativeTarget "Snowonder-swiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F77D2823A30500914062 /* Debug */,
+				CD04F77E2823A30500914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD04F77F2823A30500914062 /* Build configuration list for PBXNativeTarget "Snowonder-swiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F7802823A30500914062 /* Debug */,
+				CD04F7812823A30500914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD04F7962823A35300914062 /* Build configuration list for PBXNativeTarget "Snowonder Extension swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F7972823A35300914062 /* Debug */,
+				CD04F7982823A35300914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD04F74E2823A30300914062 /* Project object */;
+}

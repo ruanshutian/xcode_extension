@@ -1,0 +1,1361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD04F73C28239C8E00914062 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340511280E66D200D014A1 /* Cocoa.framework */; };
+		CD04F74128239C8E00914062 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04F74028239C8E00914062 /* SourceEditorExtension.m */; };
+		CD04F74428239C8E00914062 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD04F74328239C8E00914062 /* SourceEditorCommand.m */; };
+		CD04F74928239C8E00914062 /* Snowonder Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD04F73B28239C8E00914062 /* Snowonder Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD04F7AB2824C4AE00914062 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340513280E66D200D014A1 /* XcodeKit.framework */; };
+		CD04F7AC2824C4AE00914062 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD340513280E66D200D014A1 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD3404DD280E605600D014A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404DC280E605600D014A1 /* AppDelegate.m */; };
+		CD3404DF280E605800D014A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3404DE280E605800D014A1 /* Assets.xcassets */; };
+		CD3404E2280E605800D014A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3404E0280E605800D014A1 /* MainMenu.xib */; };
+		CD3404E5280E605800D014A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404E4280E605800D014A1 /* main.m */; };
+		CD3404F0280E605800D014A1 /* xcodeSourceEditorLeaningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404EF280E605800D014A1 /* xcodeSourceEditorLeaningTests.m */; };
+		CD3404FB280E605800D014A1 /* xcodeSourceEditorLeaningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404FA280E605800D014A1 /* xcodeSourceEditorLeaningUITests.m */; };
+		CD34052A2813B09800D014A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340511280E66D200D014A1 /* Cocoa.framework */; };
+		CD34052F2813B09800D014A1 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34052E2813B09800D014A1 /* SourceEditorExtension.m */; };
+		CD3405322813B09800D014A1 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3405312813B09800D014A1 /* SourceEditorCommand.m */; };
+		CD3405372813B09800D014A1 /* ZExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD3405292813B09800D014A1 /* ZExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD34053B2813B0CF00D014A1 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340513280E66D200D014A1 /* XcodeKit.framework */; };
+		CD34053C2813B0CF00D014A1 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD340513280E66D200D014A1 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD3405432813B1B200D014A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340511280E66D200D014A1 /* Cocoa.framework */; };
+		CD3405482813B1B200D014A1 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3405472813B1B200D014A1 /* SourceEditorExtension.m */; };
+		CD34054B2813B1B200D014A1 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34054A2813B1B200D014A1 /* SourceEditorCommand.m */; };
+		CD3405502813B1B200D014A1 /* XTComment.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD3405422813B1B200D014A1 /* XTComment.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD3405542813B1D400D014A1 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340513280E66D200D014A1 /* XcodeKit.framework */; };
+		CD3405552813B1D400D014A1 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD340513280E66D200D014A1 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD34055C2813B54E00D014A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340511280E66D200D014A1 /* Cocoa.framework */; };
+		CD3405612813B54E00D014A1 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3405602813B54E00D014A1 /* SourceEditorExtension.m */; };
+		CD3405642813B54E00D014A1 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3405632813B54E00D014A1 /* SourceEditorCommand.m */; };
+		CD3405692813B54E00D014A1 /* Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD34055B2813B54E00D014A1 /* Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD34056D2813B55800D014A1 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340513280E66D200D014A1 /* XcodeKit.framework */; };
+		CD34056E2813B55900D014A1 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD340513280E66D200D014A1 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD814DCA280E67AD00CB662B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340511280E66D200D014A1 /* Cocoa.framework */; };
+		CD814DCF280E67AD00CB662B /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD814DCE280E67AD00CB662B /* SourceEditorExtension.m */; };
+		CD814DD2280E67AD00CB662B /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD814DD1280E67AD00CB662B /* SourceEditorCommand.m */; };
+		CD814DD7280E67AD00CB662B /* tool.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD814DC9280E67AD00CB662B /* tool.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD814DDB280E67D700CB662B /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340513280E66D200D014A1 /* XcodeKit.framework */; };
+		CD814DDC280E67D700CB662B /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD340513280E66D200D014A1 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD04F74728239C8E00914062 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3404D0280E605600D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD04F73A28239C8E00914062;
+			remoteInfo = "Snowonder Extension";
+		};
+		CD3404EC280E605800D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3404D0280E605600D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3404D7280E605600D014A1;
+			remoteInfo = xcodeSourceEditorLeaning;
+		};
+		CD3404F7280E605800D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3404D0280E605600D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3404D7280E605600D014A1;
+			remoteInfo = xcodeSourceEditorLeaning;
+		};
+		CD3405352813B09800D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3404D0280E605600D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3405282813B09800D014A1;
+			remoteInfo = ZExtension;
+		};
+		CD34054E2813B1B200D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3404D0280E605600D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3405412813B1B200D014A1;
+			remoteInfo = XTComment;
+		};
+		CD3405672813B54E00D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3404D0280E605600D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD34055A2813B54E00D014A1;
+			remoteInfo = Extension;
+		};
+		CD814DD5280E67AD00CB662B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3404D0280E605600D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD814DC8280E67AD00CB662B;
+			remoteInfo = tool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD04F7AD2824C4AE00914062 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD04F7AC2824C4AE00914062 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD340524280E66D200D014A1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD04F74928239C8E00914062 /* Snowonder Extension.appex in Embed App Extensions */,
+				CD3405692813B54E00D014A1 /* Extension.appex in Embed App Extensions */,
+				CD814DD7280E67AD00CB662B /* tool.appex in Embed App Extensions */,
+				CD3405502813B1B200D014A1 /* XTComment.appex in Embed App Extensions */,
+				CD3405372813B09800D014A1 /* ZExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD34053D2813B0CF00D014A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD34053C2813B0CF00D014A1 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3405562813B1D400D014A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD3405552813B1D400D014A1 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD34056F2813B55900D014A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD34056E2813B55900D014A1 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD814DDD280E67D700CB662B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD814DDC280E67D700CB662B /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD04F73B28239C8E00914062 /* Snowonder Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Snowonder Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD04F73F28239C8E00914062 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD04F74028239C8E00914062 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD04F74228239C8E00914062 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD04F74328239C8E00914062 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD04F74528239C8E00914062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD04F74628239C8E00914062 /* Snowonder_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Snowonder_Extension.entitlements; sourceTree = "<group>"; };
+		CD3404D8280E605600D014A1 /* xcodeSourceEditorLeaning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xcodeSourceEditorLeaning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3404DB280E605600D014A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3404DC280E605600D014A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD3404DE280E605800D014A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3404E1280E605800D014A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD3404E3280E605800D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3404E4280E605800D014A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3404E6280E605800D014A1 /* xcodeSourceEditorLeaning.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = xcodeSourceEditorLeaning.entitlements; sourceTree = "<group>"; };
+		CD3404EB280E605800D014A1 /* xcodeSourceEditorLeaningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodeSourceEditorLeaningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3404EF280E605800D014A1 /* xcodeSourceEditorLeaningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcodeSourceEditorLeaningTests.m; sourceTree = "<group>"; };
+		CD3404F1280E605800D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3404F6280E605800D014A1 /* xcodeSourceEditorLeaningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xcodeSourceEditorLeaningUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3404FA280E605800D014A1 /* xcodeSourceEditorLeaningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = xcodeSourceEditorLeaningUITests.m; sourceTree = "<group>"; };
+		CD3404FC280E605800D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD340511280E66D200D014A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD340513280E66D200D014A1 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD3405292813B09800D014A1 /* ZExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ZExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD34052D2813B09800D014A1 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD34052E2813B09800D014A1 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD3405302813B09800D014A1 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD3405312813B09800D014A1 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD3405332813B09800D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3405342813B09800D014A1 /* ZExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZExtension.entitlements; sourceTree = "<group>"; };
+		CD3405422813B1B200D014A1 /* XTComment.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = XTComment.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3405462813B1B200D014A1 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD3405472813B1B200D014A1 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD3405492813B1B200D014A1 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD34054A2813B1B200D014A1 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD34054C2813B1B200D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD34054D2813B1B200D014A1 /* XTComment.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XTComment.entitlements; sourceTree = "<group>"; };
+		CD34055B2813B54E00D014A1 /* Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Extension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD34055F2813B54E00D014A1 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD3405602813B54E00D014A1 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD3405622813B54E00D014A1 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD3405632813B54E00D014A1 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD3405652813B54E00D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3405662813B54E00D014A1 /* Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Extension.entitlements; sourceTree = "<group>"; };
+		CD814DC9280E67AD00CB662B /* tool.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = tool.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD814DCD280E67AD00CB662B /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD814DCE280E67AD00CB662B /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD814DD0280E67AD00CB662B /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD814DD1280E67AD00CB662B /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD814DD3280E67AD00CB662B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD814DD4280E67AD00CB662B /* tool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tool.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD04F73828239C8E00914062 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F73C28239C8E00914062 /* Cocoa.framework in Frameworks */,
+				CD04F7AB2824C4AE00914062 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3404D5280E605600D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3404E8280E605800D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3404F3280E605800D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3405262813B09800D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD34052A2813B09800D014A1 /* Cocoa.framework in Frameworks */,
+				CD34053B2813B0CF00D014A1 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD34053F2813B1B200D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3405432813B1B200D014A1 /* Cocoa.framework in Frameworks */,
+				CD3405542813B1D400D014A1 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3405582813B54E00D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD34055C2813B54E00D014A1 /* Cocoa.framework in Frameworks */,
+				CD34056D2813B55800D014A1 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD814DC6280E67AD00CB662B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD814DCA280E67AD00CB662B /* Cocoa.framework in Frameworks */,
+				CD814DDB280E67D700CB662B /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD04F73E28239C8E00914062 /* Snowonder Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CD04F73F28239C8E00914062 /* SourceEditorExtension.h */,
+				CD04F74028239C8E00914062 /* SourceEditorExtension.m */,
+				CD04F74228239C8E00914062 /* SourceEditorCommand.h */,
+				CD04F74328239C8E00914062 /* SourceEditorCommand.m */,
+				CD04F74528239C8E00914062 /* Info.plist */,
+				CD04F74628239C8E00914062 /* Snowonder_Extension.entitlements */,
+			);
+			path = "Snowonder Extension";
+			sourceTree = "<group>";
+		};
+		CD3404CF280E605600D014A1 = {
+			isa = PBXGroup;
+			children = (
+				CD3404DA280E605600D014A1 /* xcodeSourceEditorLeaning */,
+				CD3404EE280E605800D014A1 /* xcodeSourceEditorLeaningTests */,
+				CD3404F9280E605800D014A1 /* xcodeSourceEditorLeaningUITests */,
+				CD814DCC280E67AD00CB662B /* tool */,
+				CD34052C2813B09800D014A1 /* ZExtension */,
+				CD3405452813B1B200D014A1 /* XTComment */,
+				CD34055E2813B54E00D014A1 /* Extension */,
+				CD04F73E28239C8E00914062 /* Snowonder Extension */,
+				CD340510280E66D200D014A1 /* Frameworks */,
+				CD3404D9280E605600D014A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3404D9280E605600D014A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3404D8280E605600D014A1 /* xcodeSourceEditorLeaning.app */,
+				CD3404EB280E605800D014A1 /* xcodeSourceEditorLeaningTests.xctest */,
+				CD3404F6280E605800D014A1 /* xcodeSourceEditorLeaningUITests.xctest */,
+				CD814DC9280E67AD00CB662B /* tool.appex */,
+				CD3405292813B09800D014A1 /* ZExtension.appex */,
+				CD3405422813B1B200D014A1 /* XTComment.appex */,
+				CD34055B2813B54E00D014A1 /* Extension.appex */,
+				CD04F73B28239C8E00914062 /* Snowonder Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3404DA280E605600D014A1 /* xcodeSourceEditorLeaning */ = {
+			isa = PBXGroup;
+			children = (
+				CD3404DB280E605600D014A1 /* AppDelegate.h */,
+				CD3404DC280E605600D014A1 /* AppDelegate.m */,
+				CD3404DE280E605800D014A1 /* Assets.xcassets */,
+				CD3404E0280E605800D014A1 /* MainMenu.xib */,
+				CD3404E3280E605800D014A1 /* Info.plist */,
+				CD3404E4280E605800D014A1 /* main.m */,
+				CD3404E6280E605800D014A1 /* xcodeSourceEditorLeaning.entitlements */,
+			);
+			path = xcodeSourceEditorLeaning;
+			sourceTree = "<group>";
+		};
+		CD3404EE280E605800D014A1 /* xcodeSourceEditorLeaningTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3404EF280E605800D014A1 /* xcodeSourceEditorLeaningTests.m */,
+				CD3404F1280E605800D014A1 /* Info.plist */,
+			);
+			path = xcodeSourceEditorLeaningTests;
+			sourceTree = "<group>";
+		};
+		CD3404F9280E605800D014A1 /* xcodeSourceEditorLeaningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3404FA280E605800D014A1 /* xcodeSourceEditorLeaningUITests.m */,
+				CD3404FC280E605800D014A1 /* Info.plist */,
+			);
+			path = xcodeSourceEditorLeaningUITests;
+			sourceTree = "<group>";
+		};
+		CD340510280E66D200D014A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD340511280E66D200D014A1 /* Cocoa.framework */,
+				CD340513280E66D200D014A1 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD34052C2813B09800D014A1 /* ZExtension */ = {
+			isa = PBXGroup;
+			children = (
+				CD34052D2813B09800D014A1 /* SourceEditorExtension.h */,
+				CD34052E2813B09800D014A1 /* SourceEditorExtension.m */,
+				CD3405302813B09800D014A1 /* SourceEditorCommand.h */,
+				CD3405312813B09800D014A1 /* SourceEditorCommand.m */,
+				CD3405332813B09800D014A1 /* Info.plist */,
+				CD3405342813B09800D014A1 /* ZExtension.entitlements */,
+			);
+			path = ZExtension;
+			sourceTree = "<group>";
+		};
+		CD3405452813B1B200D014A1 /* XTComment */ = {
+			isa = PBXGroup;
+			children = (
+				CD3405462813B1B200D014A1 /* SourceEditorExtension.h */,
+				CD3405472813B1B200D014A1 /* SourceEditorExtension.m */,
+				CD3405492813B1B200D014A1 /* SourceEditorCommand.h */,
+				CD34054A2813B1B200D014A1 /* SourceEditorCommand.m */,
+				CD34054C2813B1B200D014A1 /* Info.plist */,
+				CD34054D2813B1B200D014A1 /* XTComment.entitlements */,
+			);
+			path = XTComment;
+			sourceTree = "<group>";
+		};
+		CD34055E2813B54E00D014A1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				CD34055F2813B54E00D014A1 /* SourceEditorExtension.h */,
+				CD3405602813B54E00D014A1 /* SourceEditorExtension.m */,
+				CD3405622813B54E00D014A1 /* SourceEditorCommand.h */,
+				CD3405632813B54E00D014A1 /* SourceEditorCommand.m */,
+				CD3405652813B54E00D014A1 /* Info.plist */,
+				CD3405662813B54E00D014A1 /* Extension.entitlements */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		CD814DCC280E67AD00CB662B /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				CD814DCD280E67AD00CB662B /* SourceEditorExtension.h */,
+				CD814DCE280E67AD00CB662B /* SourceEditorExtension.m */,
+				CD814DD0280E67AD00CB662B /* SourceEditorCommand.h */,
+				CD814DD1280E67AD00CB662B /* SourceEditorCommand.m */,
+				CD814DD3280E67AD00CB662B /* Info.plist */,
+				CD814DD4280E67AD00CB662B /* tool.entitlements */,
+			);
+			path = tool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD04F73A28239C8E00914062 /* Snowonder Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD04F74C28239C8E00914062 /* Build configuration list for PBXNativeTarget "Snowonder Extension" */;
+			buildPhases = (
+				CD04F73728239C8E00914062 /* Sources */,
+				CD04F73828239C8E00914062 /* Frameworks */,
+				CD04F73928239C8E00914062 /* Resources */,
+				CD04F7AD2824C4AE00914062 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Snowonder Extension";
+			productName = "Snowonder Extension";
+			productReference = CD04F73B28239C8E00914062 /* Snowonder Extension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+		CD3404D7280E605600D014A1 /* xcodeSourceEditorLeaning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3404FF280E605800D014A1 /* Build configuration list for PBXNativeTarget "xcodeSourceEditorLeaning" */;
+			buildPhases = (
+				CD3404D4280E605600D014A1 /* Sources */,
+				CD3404D5280E605600D014A1 /* Frameworks */,
+				CD3404D6280E605600D014A1 /* Resources */,
+				CD340524280E66D200D014A1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD814DD6280E67AD00CB662B /* PBXTargetDependency */,
+				CD3405362813B09800D014A1 /* PBXTargetDependency */,
+				CD34054F2813B1B200D014A1 /* PBXTargetDependency */,
+				CD3405682813B54E00D014A1 /* PBXTargetDependency */,
+				CD04F74828239C8E00914062 /* PBXTargetDependency */,
+			);
+			name = xcodeSourceEditorLeaning;
+			productName = xcodeSourceEditorLeaning;
+			productReference = CD3404D8280E605600D014A1 /* xcodeSourceEditorLeaning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3404EA280E605800D014A1 /* xcodeSourceEditorLeaningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD340502280E605800D014A1 /* Build configuration list for PBXNativeTarget "xcodeSourceEditorLeaningTests" */;
+			buildPhases = (
+				CD3404E7280E605800D014A1 /* Sources */,
+				CD3404E8280E605800D014A1 /* Frameworks */,
+				CD3404E9280E605800D014A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3404ED280E605800D014A1 /* PBXTargetDependency */,
+			);
+			name = xcodeSourceEditorLeaningTests;
+			productName = xcodeSourceEditorLeaningTests;
+			productReference = CD3404EB280E605800D014A1 /* xcodeSourceEditorLeaningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3404F5280E605800D014A1 /* xcodeSourceEditorLeaningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD340505280E605800D014A1 /* Build configuration list for PBXNativeTarget "xcodeSourceEditorLeaningUITests" */;
+			buildPhases = (
+				CD3404F2280E605800D014A1 /* Sources */,
+				CD3404F3280E605800D014A1 /* Frameworks */,
+				CD3404F4280E605800D014A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3404F8280E605800D014A1 /* PBXTargetDependency */,
+			);
+			name = xcodeSourceEditorLeaningUITests;
+			productName = xcodeSourceEditorLeaningUITests;
+			productReference = CD3404F6280E605800D014A1 /* xcodeSourceEditorLeaningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD3405282813B09800D014A1 /* ZExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD34053A2813B09800D014A1 /* Build configuration list for PBXNativeTarget "ZExtension" */;
+			buildPhases = (
+				CD3405252813B09800D014A1 /* Sources */,
+				CD3405262813B09800D014A1 /* Frameworks */,
+				CD3405272813B09800D014A1 /* Resources */,
+				CD34053D2813B0CF00D014A1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZExtension;
+			productName = ZExtension;
+			productReference = CD3405292813B09800D014A1 /* ZExtension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+		CD3405412813B1B200D014A1 /* XTComment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3405512813B1B200D014A1 /* Build configuration list for PBXNativeTarget "XTComment" */;
+			buildPhases = (
+				CD34053E2813B1B200D014A1 /* Sources */,
+				CD34053F2813B1B200D014A1 /* Frameworks */,
+				CD3405402813B1B200D014A1 /* Resources */,
+				CD3405562813B1D400D014A1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XTComment;
+			productName = XTComment;
+			productReference = CD3405422813B1B200D014A1 /* XTComment.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+		CD34055A2813B54E00D014A1 /* Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD34056A2813B54E00D014A1 /* Build configuration list for PBXNativeTarget "Extension" */;
+			buildPhases = (
+				CD3405572813B54E00D014A1 /* Sources */,
+				CD3405582813B54E00D014A1 /* Frameworks */,
+				CD3405592813B54E00D014A1 /* Resources */,
+				CD34056F2813B55900D014A1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Extension;
+			productName = Extension;
+			productReference = CD34055B2813B54E00D014A1 /* Extension.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+		CD814DC8280E67AD00CB662B /* tool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD814DDA280E67AD00CB662B /* Build configuration list for PBXNativeTarget "tool" */;
+			buildPhases = (
+				CD814DC5280E67AD00CB662B /* Sources */,
+				CD814DC6280E67AD00CB662B /* Frameworks */,
+				CD814DC7280E67AD00CB662B /* Resources */,
+				CD814DDD280E67D700CB662B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tool;
+			productName = tool;
+			productReference = CD814DC9280E67AD00CB662B /* tool.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3404D0280E605600D014A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CD04F73A28239C8E00914062 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					CD3404D7280E605600D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CD3404EA280E605800D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CD3404D7280E605600D014A1;
+					};
+					CD3404F5280E605800D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CD3404D7280E605600D014A1;
+					};
+					CD3405282813B09800D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CD3405412813B1B200D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CD34055A2813B54E00D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CD814DC8280E67AD00CB662B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = CD3404D3280E605600D014A1 /* Build configuration list for PBXProject "xcodeSourceEditorLeaning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3404CF280E605600D014A1;
+			productRefGroup = CD3404D9280E605600D014A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3404D7280E605600D014A1 /* xcodeSourceEditorLeaning */,
+				CD3404EA280E605800D014A1 /* xcodeSourceEditorLeaningTests */,
+				CD3404F5280E605800D014A1 /* xcodeSourceEditorLeaningUITests */,
+				CD814DC8280E67AD00CB662B /* tool */,
+				CD3405282813B09800D014A1 /* ZExtension */,
+				CD3405412813B1B200D014A1 /* XTComment */,
+				CD34055A2813B54E00D014A1 /* Extension */,
+				CD04F73A28239C8E00914062 /* Snowonder Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD04F73928239C8E00914062 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3404D6280E605600D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3404DF280E605800D014A1 /* Assets.xcassets in Resources */,
+				CD3404E2280E605800D014A1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3404E9280E605800D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3404F4280E605800D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3405272813B09800D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3405402813B1B200D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3405592813B54E00D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD814DC7280E67AD00CB662B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD04F73728239C8E00914062 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD04F74128239C8E00914062 /* SourceEditorExtension.m in Sources */,
+				CD04F74428239C8E00914062 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3404D4280E605600D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3404E5280E605800D014A1 /* main.m in Sources */,
+				CD3404DD280E605600D014A1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3404E7280E605800D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3404F0280E605800D014A1 /* xcodeSourceEditorLeaningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3404F2280E605800D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3404FB280E605800D014A1 /* xcodeSourceEditorLeaningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3405252813B09800D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD34052F2813B09800D014A1 /* SourceEditorExtension.m in Sources */,
+				CD3405322813B09800D014A1 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD34053E2813B1B200D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3405482813B1B200D014A1 /* SourceEditorExtension.m in Sources */,
+				CD34054B2813B1B200D014A1 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3405572813B54E00D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3405612813B54E00D014A1 /* SourceEditorExtension.m in Sources */,
+				CD3405642813B54E00D014A1 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD814DC5280E67AD00CB662B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD814DCF280E67AD00CB662B /* SourceEditorExtension.m in Sources */,
+				CD814DD2280E67AD00CB662B /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD04F74828239C8E00914062 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD04F73A28239C8E00914062 /* Snowonder Extension */;
+			targetProxy = CD04F74728239C8E00914062 /* PBXContainerItemProxy */;
+		};
+		CD3404ED280E605800D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3404D7280E605600D014A1 /* xcodeSourceEditorLeaning */;
+			targetProxy = CD3404EC280E605800D014A1 /* PBXContainerItemProxy */;
+		};
+		CD3404F8280E605800D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3404D7280E605600D014A1 /* xcodeSourceEditorLeaning */;
+			targetProxy = CD3404F7280E605800D014A1 /* PBXContainerItemProxy */;
+		};
+		CD3405362813B09800D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3405282813B09800D014A1 /* ZExtension */;
+			targetProxy = CD3405352813B09800D014A1 /* PBXContainerItemProxy */;
+		};
+		CD34054F2813B1B200D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3405412813B1B200D014A1 /* XTComment */;
+			targetProxy = CD34054E2813B1B200D014A1 /* PBXContainerItemProxy */;
+		};
+		CD3405682813B54E00D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD34055A2813B54E00D014A1 /* Extension */;
+			targetProxy = CD3405672813B54E00D014A1 /* PBXContainerItemProxy */;
+		};
+		CD814DD6280E67AD00CB662B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD814DC8280E67AD00CB662B /* tool */;
+			targetProxy = CD814DD5280E67AD00CB662B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3404E0280E605800D014A1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3404E1280E605800D014A1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD04F74A28239C8E00914062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = "Snowonder Extension/Snowonder_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snowonder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Snowonder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning.Snowonder-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CD04F74B28239C8E00914062 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CODE_SIGN_ENTITLEMENTS = "Snowonder Extension/Snowonder_Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Snowonder Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Snowonder Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning.Snowonder-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		CD3404FD280E605800D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD3404FE280E605800D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD340500280E605800D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xcodeSourceEditorLeaning/xcodeSourceEditorLeaning.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = xcodeSourceEditorLeaning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD340501280E605800D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = xcodeSourceEditorLeaning/xcodeSourceEditorLeaning.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = xcodeSourceEditorLeaning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD340503280E605800D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = xcodeSourceEditorLeaningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcodeSourceEditorLeaning.app/Contents/MacOS/xcodeSourceEditorLeaning";
+			};
+			name = Debug;
+		};
+		CD340504280E605800D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = xcodeSourceEditorLeaningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xcodeSourceEditorLeaning.app/Contents/MacOS/xcodeSourceEditorLeaning";
+			};
+			name = Release;
+		};
+		CD340506280E605800D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = xcodeSourceEditorLeaningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = xcodeSourceEditorLeaning;
+			};
+			name = Debug;
+		};
+		CD340507280E605800D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = xcodeSourceEditorLeaningUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = xcodeSourceEditorLeaning;
+			};
+			name = Release;
+		};
+		CD3405382813B09800D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZExtension/ZExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ZExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning.ZExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD3405392813B09800D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ZExtension/ZExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = ZExtension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning.ZExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CD3405522813B1B200D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XTComment/XTComment.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XTComment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning.XTComment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD3405532813B1B200D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = XTComment/XTComment.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = XTComment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning.XTComment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CD34056B2813B54E00D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD34056C2813B54E00D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Extension/Extension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = Extension/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CD814DD8280E67AD00CB662B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = tool/tool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = tool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning.tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD814DD9280E67AD00CB662B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = tool/tool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = tool/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.xcodeSourceEditorLeaning.tool";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD04F74C28239C8E00914062 /* Build configuration list for PBXNativeTarget "Snowonder Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD04F74A28239C8E00914062 /* Debug */,
+				CD04F74B28239C8E00914062 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3404D3280E605600D014A1 /* Build configuration list for PBXProject "xcodeSourceEditorLeaning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3404FD280E605800D014A1 /* Debug */,
+				CD3404FE280E605800D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3404FF280E605800D014A1 /* Build configuration list for PBXNativeTarget "xcodeSourceEditorLeaning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD340500280E605800D014A1 /* Debug */,
+				CD340501280E605800D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD340502280E605800D014A1 /* Build configuration list for PBXNativeTarget "xcodeSourceEditorLeaningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD340503280E605800D014A1 /* Debug */,
+				CD340504280E605800D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD340505280E605800D014A1 /* Build configuration list for PBXNativeTarget "xcodeSourceEditorLeaningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD340506280E605800D014A1 /* Debug */,
+				CD340507280E605800D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD34053A2813B09800D014A1 /* Build configuration list for PBXNativeTarget "ZExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3405382813B09800D014A1 /* Debug */,
+				CD3405392813B09800D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3405512813B1B200D014A1 /* Build configuration list for PBXNativeTarget "XTComment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3405522813B1B200D014A1 /* Debug */,
+				CD3405532813B1B200D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD34056A2813B54E00D014A1 /* Build configuration list for PBXNativeTarget "Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD34056B2813B54E00D014A1 /* Debug */,
+				CD34056C2813B54E00D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD814DDA280E67AD00CB662B /* Build configuration list for PBXNativeTarget "tool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD814DD8280E67AD00CB662B /* Debug */,
+				CD814DD9280E67AD00CB662B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3404D0280E605600D014A1 /* Project object */;
+}

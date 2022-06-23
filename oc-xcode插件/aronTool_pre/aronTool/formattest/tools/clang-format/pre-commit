@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python tools/clang-format/git-clang-format -f -c
+

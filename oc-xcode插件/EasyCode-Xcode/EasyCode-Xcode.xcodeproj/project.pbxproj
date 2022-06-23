@@ -1,0 +1,853 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3403AB280D5C5700D014A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3403AA280D5C5700D014A1 /* AppDelegate.m */; };
+		CD3403AD280D5C5800D014A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3403AC280D5C5800D014A1 /* Assets.xcassets */; };
+		CD3403B0280D5C5800D014A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3403AE280D5C5800D014A1 /* MainMenu.xib */; };
+		CD3403B3280D5C5800D014A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3403B2280D5C5800D014A1 /* main.m */; };
+		CD3403BE280D5C5800D014A1 /* EasyCode_XcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3403BD280D5C5800D014A1 /* EasyCode_XcodeTests.m */; };
+		CD3403C9280D5C5800D014A1 /* EasyCode_XcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3403C8280D5C5800D014A1 /* EasyCode_XcodeUITests.m */; };
+		CD3403DD280D5C8000D014A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3403DC280D5C8000D014A1 /* Cocoa.framework */; };
+		CD3403DF280D5C8000D014A1 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3403DE280D5C8000D014A1 /* XcodeKit.framework */; };
+		CD3403E3280D5C8000D014A1 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3403E2280D5C8000D014A1 /* SourceEditorExtension.m */; };
+		CD3403E6280D5C8000D014A1 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3403E5280D5C8000D014A1 /* SourceEditorCommand.m */; };
+		CD3403EB280D5C8000D014A1 /* EC.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD3403DA280D5C8000D014A1 /* EC.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD3403F1280D5C8D00D014A1 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3403F0280D5C8D00D014A1 /* XcodeKit.framework */; };
+		CD3403F2280D5C8D00D014A1 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD3403F0280D5C8D00D014A1 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD3403F6280D5DE400D014A1 /* EasyCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3403F5280D5DE400D014A1 /* EasyCodeManager.m */; };
+		CD34049F280D61B100D014A1 /* ECMappingForObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34049E280D61B100D014A1 /* ECMappingForObjectiveC.m */; };
+		CD3404A2280D61F100D014A1 /* ECMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404A1280D61F100D014A1 /* ECMapping.m */; };
+		CD3404A6280D621A00D014A1 /* ECGenerateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404A5280D621A00D014A1 /* ECGenerateHelper.m */; };
+		CD3404A9280D623500D014A1 /* ECFileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404A8280D623500D014A1 /* ECFileParser.m */; };
+		CD3404AC280D62D600D014A1 /* FSImpProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404AB280D62D600D014A1 /* FSImpProcessor.m */; };
+		CD3404AF280D633500D014A1 /* FSInterfaceProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404AE280D633500D014A1 /* FSInterfaceProcessor.m */; };
+		CD3404B2280D634C00D014A1 /* FSProtocolProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404B1280D634C00D014A1 /* FSProtocolProcessor.m */; };
+		CD3404B8280D638900D014A1 /* FSElementCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404B7280D638900D014A1 /* FSElementCache.m */; };
+		CD3404BB280D63B600D014A1 /* FSElementProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404BA280D63B600D014A1 /* FSElementProcessor.m */; };
+		CD3404BE280D646900D014A1 /* NSString+PDRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404BD280D646900D014A1 /* NSString+PDRegex.m */; };
+		CD3404C1280D64B200D014A1 /* FSElementPool.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404C0280D64B200D014A1 /* FSElementPool.m */; };
+		CD3404C3280D64F100D014A1 /* FSElementProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404C2280D64F100D014A1 /* FSElementProperty.m */; };
+		CD3404C7280D651200D014A1 /* ECMappingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404C6280D651200D014A1 /* ECMappingHelper.m */; };
+		CD3404CA280D657000D014A1 /* ECMappingForSwift.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404C9280D657000D014A1 /* ECMappingForSwift.m */; };
+		CD3404CD280D658000D014A1 /* ESharedUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3404CC280D658000D014A1 /* ESharedUserDefault.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD3403BA280D5C5800D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD34039E280D5C5700D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3403A5280D5C5700D014A1;
+			remoteInfo = "EasyCode-Xcode";
+		};
+		CD3403C5280D5C5800D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD34039E280D5C5700D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3403A5280D5C5700D014A1;
+			remoteInfo = "EasyCode-Xcode";
+		};
+		CD3403E9280D5C8000D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD34039E280D5C5700D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3403D9280D5C8000D014A1;
+			remoteInfo = EC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD3403EF280D5C8000D014A1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD3403EB280D5C8000D014A1 /* EC.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3403F3280D5C8D00D014A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD3403F2280D5C8D00D014A1 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD3403A6280D5C5700D014A1 /* EasyCode-Xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyCode-Xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3403A9280D5C5700D014A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3403AA280D5C5700D014A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD3403AC280D5C5800D014A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3403AF280D5C5800D014A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD3403B1280D5C5800D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3403B2280D5C5800D014A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3403B4280D5C5800D014A1 /* EasyCode_Xcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyCode_Xcode.entitlements; sourceTree = "<group>"; };
+		CD3403B9280D5C5800D014A1 /* EasyCode-XcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyCode-XcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3403BD280D5C5800D014A1 /* EasyCode_XcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCode_XcodeTests.m; sourceTree = "<group>"; };
+		CD3403BF280D5C5800D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3403C4280D5C5800D014A1 /* EasyCode-XcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyCode-XcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3403C8280D5C5800D014A1 /* EasyCode_XcodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCode_XcodeUITests.m; sourceTree = "<group>"; };
+		CD3403CA280D5C5800D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3403DA280D5C8000D014A1 /* EC.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EC.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3403DC280D5C8000D014A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD3403DE280D5C8000D014A1 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD3403E1280D5C8000D014A1 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD3403E2280D5C8000D014A1 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD3403E4280D5C8000D014A1 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD3403E5280D5C8000D014A1 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD3403E7280D5C8000D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3403E8280D5C8000D014A1 /* EC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EC.entitlements; sourceTree = "<group>"; };
+		CD3403F0280D5C8D00D014A1 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD3403F4280D5DCE00D014A1 /* EasyCodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = EasyCodeManager.h; path = "../../../../../Desktop/workTool/EasyCode-Xcode/EC/EasyCodeManager.h"; sourceTree = "<group>"; };
+		CD3403F5280D5DE400D014A1 /* EasyCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyCodeManager.m; sourceTree = "<group>"; };
+		CD34049D280D61AB00D014A1 /* ECMappingForObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECMappingForObjectiveC.h; sourceTree = "<group>"; };
+		CD34049E280D61B100D014A1 /* ECMappingForObjectiveC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMappingForObjectiveC.m; sourceTree = "<group>"; };
+		CD3404A0280D61B600D014A1 /* OCMapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMapping.h; sourceTree = "<group>"; };
+		CD3404A1280D61F100D014A1 /* ECMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMapping.m; sourceTree = "<group>"; };
+		CD3404A3280D61F800D014A1 /* ECMapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECMapping.h; sourceTree = "<group>"; };
+		CD3404A4280D621400D014A1 /* ECGenerateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECGenerateHelper.h; sourceTree = "<group>"; };
+		CD3404A5280D621A00D014A1 /* ECGenerateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECGenerateHelper.m; sourceTree = "<group>"; };
+		CD3404A7280D622F00D014A1 /* ECFileParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECFileParser.h; sourceTree = "<group>"; };
+		CD3404A8280D623500D014A1 /* ECFileParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECFileParser.m; sourceTree = "<group>"; };
+		CD3404AA280D62D000D014A1 /* FSImpProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSImpProcessor.h; sourceTree = "<group>"; };
+		CD3404AB280D62D600D014A1 /* FSImpProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImpProcessor.m; sourceTree = "<group>"; };
+		CD3404AD280D632F00D014A1 /* FSInterfaceProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSInterfaceProcessor.h; sourceTree = "<group>"; };
+		CD3404AE280D633500D014A1 /* FSInterfaceProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSInterfaceProcessor.m; sourceTree = "<group>"; };
+		CD3404B0280D634700D014A1 /* FSProtocolProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSProtocolProcessor.h; sourceTree = "<group>"; };
+		CD3404B1280D634C00D014A1 /* FSProtocolProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSProtocolProcessor.m; sourceTree = "<group>"; };
+		CD3404B3280D635F00D014A1 /* FSElementProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSElementProcessor.h; sourceTree = "<group>"; };
+		CD3404B6280D638200D014A1 /* FSElementCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSElementCache.h; sourceTree = "<group>"; };
+		CD3404B7280D638900D014A1 /* FSElementCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSElementCache.m; sourceTree = "<group>"; };
+		CD3404BA280D63B600D014A1 /* FSElementProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FSElementProcessor.m; path = "../../../../../Desktop/workTool/EasyCode-Xcode/EC/ECFileParser/Processors/FSElementProcessor.m"; sourceTree = "<group>"; };
+		CD3404BC280D646000D014A1 /* NSString+PDRegex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+PDRegex.h"; sourceTree = "<group>"; };
+		CD3404BD280D646900D014A1 /* NSString+PDRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PDRegex.m"; sourceTree = "<group>"; };
+		CD3404BF280D64AB00D014A1 /* FSElementPool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSElementPool.h; sourceTree = "<group>"; };
+		CD3404C0280D64B200D014A1 /* FSElementPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSElementPool.m; sourceTree = "<group>"; };
+		CD3404C2280D64F100D014A1 /* FSElementProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSElementProperty.m; sourceTree = "<group>"; };
+		CD3404C4280D64F800D014A1 /* FSElementProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FSElementProperty.h; sourceTree = "<group>"; };
+		CD3404C5280D650E00D014A1 /* ECMappingHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECMappingHelper.h; sourceTree = "<group>"; };
+		CD3404C6280D651200D014A1 /* ECMappingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMappingHelper.m; sourceTree = "<group>"; };
+		CD3404C8280D656B00D014A1 /* ECMappingForSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECMappingForSwift.h; sourceTree = "<group>"; };
+		CD3404C9280D657000D014A1 /* ECMappingForSwift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMappingForSwift.m; sourceTree = "<group>"; };
+		CD3404CB280D657600D014A1 /* SwiftMapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMapping.h; sourceTree = "<group>"; };
+		CD3404CC280D658000D014A1 /* ESharedUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESharedUserDefault.m; sourceTree = "<group>"; };
+		CD3404CE280D658500D014A1 /* ESharedUserDefault.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ESharedUserDefault.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3403A3280D5C5700D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3403B6280D5C5800D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3403C1280D5C5800D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3403D7280D5C8000D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3403F1280D5C8D00D014A1 /* XcodeKit.framework in Frameworks */,
+				CD3403DD280D5C8000D014A1 /* Cocoa.framework in Frameworks */,
+				CD3403DF280D5C8000D014A1 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD34039D280D5C5700D014A1 = {
+			isa = PBXGroup;
+			children = (
+				CD3403A8280D5C5700D014A1 /* EasyCode-Xcode */,
+				CD3403BC280D5C5800D014A1 /* EasyCode-XcodeTests */,
+				CD3403C7280D5C5800D014A1 /* EasyCode-XcodeUITests */,
+				CD3403E0280D5C8000D014A1 /* EC */,
+				CD3403DB280D5C8000D014A1 /* Frameworks */,
+				CD3403A7280D5C5700D014A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3403A7280D5C5700D014A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3403A6280D5C5700D014A1 /* EasyCode-Xcode.app */,
+				CD3403B9280D5C5800D014A1 /* EasyCode-XcodeTests.xctest */,
+				CD3403C4280D5C5800D014A1 /* EasyCode-XcodeUITests.xctest */,
+				CD3403DA280D5C8000D014A1 /* EC.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3403A8280D5C5700D014A1 /* EasyCode-Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				CD3403A9280D5C5700D014A1 /* AppDelegate.h */,
+				CD3403AA280D5C5700D014A1 /* AppDelegate.m */,
+				CD3403AC280D5C5800D014A1 /* Assets.xcassets */,
+				CD3403AE280D5C5800D014A1 /* MainMenu.xib */,
+				CD3403B1280D5C5800D014A1 /* Info.plist */,
+				CD3403B2280D5C5800D014A1 /* main.m */,
+				CD3403B4280D5C5800D014A1 /* EasyCode_Xcode.entitlements */,
+			);
+			path = "EasyCode-Xcode";
+			sourceTree = "<group>";
+		};
+		CD3403BC280D5C5800D014A1 /* EasyCode-XcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3403BD280D5C5800D014A1 /* EasyCode_XcodeTests.m */,
+				CD3403BF280D5C5800D014A1 /* Info.plist */,
+			);
+			path = "EasyCode-XcodeTests";
+			sourceTree = "<group>";
+		};
+		CD3403C7280D5C5800D014A1 /* EasyCode-XcodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3403C8280D5C5800D014A1 /* EasyCode_XcodeUITests.m */,
+				CD3403CA280D5C5800D014A1 /* Info.plist */,
+			);
+			path = "EasyCode-XcodeUITests";
+			sourceTree = "<group>";
+		};
+		CD3403DB280D5C8000D014A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD3403F0280D5C8D00D014A1 /* XcodeKit.framework */,
+				CD3403DC280D5C8000D014A1 /* Cocoa.framework */,
+				CD3403DE280D5C8000D014A1 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3403E0280D5C8000D014A1 /* EC */ = {
+			isa = PBXGroup;
+			children = (
+				CD3403E1280D5C8000D014A1 /* SourceEditorExtension.h */,
+				CD3403E2280D5C8000D014A1 /* SourceEditorExtension.m */,
+				CD3403E4280D5C8000D014A1 /* SourceEditorCommand.h */,
+				CD3403E5280D5C8000D014A1 /* SourceEditorCommand.m */,
+				CD3403F4280D5DCE00D014A1 /* EasyCodeManager.h */,
+				CD3403F5280D5DE400D014A1 /* EasyCodeManager.m */,
+				CD3404A0280D61B600D014A1 /* OCMapping.h */,
+				CD3404A3280D61F800D014A1 /* ECMapping.h */,
+				CD3404A1280D61F100D014A1 /* ECMapping.m */,
+				CD34049E280D61B100D014A1 /* ECMappingForObjectiveC.m */,
+				CD34049D280D61AB00D014A1 /* ECMappingForObjectiveC.h */,
+				CD3403E7280D5C8000D014A1 /* Info.plist */,
+				CD3404A4280D621400D014A1 /* ECGenerateHelper.h */,
+				CD3404A5280D621A00D014A1 /* ECGenerateHelper.m */,
+				CD3403E8280D5C8000D014A1 /* EC.entitlements */,
+				CD3404A7280D622F00D014A1 /* ECFileParser.h */,
+				CD3404A8280D623500D014A1 /* ECFileParser.m */,
+				CD3404AA280D62D000D014A1 /* FSImpProcessor.h */,
+				CD3404AB280D62D600D014A1 /* FSImpProcessor.m */,
+				CD3404AD280D632F00D014A1 /* FSInterfaceProcessor.h */,
+				CD3404AE280D633500D014A1 /* FSInterfaceProcessor.m */,
+				CD3404B3280D635F00D014A1 /* FSElementProcessor.h */,
+				CD3404BA280D63B600D014A1 /* FSElementProcessor.m */,
+				CD3404B0280D634700D014A1 /* FSProtocolProcessor.h */,
+				CD3404B1280D634C00D014A1 /* FSProtocolProcessor.m */,
+				CD3404BC280D646000D014A1 /* NSString+PDRegex.h */,
+				CD3404BD280D646900D014A1 /* NSString+PDRegex.m */,
+				CD3404B6280D638200D014A1 /* FSElementCache.h */,
+				CD3404B7280D638900D014A1 /* FSElementCache.m */,
+				CD3404BF280D64AB00D014A1 /* FSElementPool.h */,
+				CD3404C0280D64B200D014A1 /* FSElementPool.m */,
+				CD3404C4280D64F800D014A1 /* FSElementProperty.h */,
+				CD3404C2280D64F100D014A1 /* FSElementProperty.m */,
+				CD3404CE280D658500D014A1 /* ESharedUserDefault.h */,
+				CD3404CC280D658000D014A1 /* ESharedUserDefault.m */,
+				CD3404C5280D650E00D014A1 /* ECMappingHelper.h */,
+				CD3404C6280D651200D014A1 /* ECMappingHelper.m */,
+				CD3404C8280D656B00D014A1 /* ECMappingForSwift.h */,
+				CD3404CB280D657600D014A1 /* SwiftMapping.h */,
+				CD3404C9280D657000D014A1 /* ECMappingForSwift.m */,
+			);
+			path = EC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3403A5280D5C5700D014A1 /* EasyCode-Xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3403CD280D5C5800D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-Xcode" */;
+			buildPhases = (
+				CD3403A2280D5C5700D014A1 /* Sources */,
+				CD3403A3280D5C5700D014A1 /* Frameworks */,
+				CD3403A4280D5C5700D014A1 /* Resources */,
+				CD3403EF280D5C8000D014A1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3403EA280D5C8000D014A1 /* PBXTargetDependency */,
+			);
+			name = "EasyCode-Xcode";
+			productName = "EasyCode-Xcode";
+			productReference = CD3403A6280D5C5700D014A1 /* EasyCode-Xcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3403B8280D5C5800D014A1 /* EasyCode-XcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3403D0280D5C5800D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-XcodeTests" */;
+			buildPhases = (
+				CD3403B5280D5C5800D014A1 /* Sources */,
+				CD3403B6280D5C5800D014A1 /* Frameworks */,
+				CD3403B7280D5C5800D014A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3403BB280D5C5800D014A1 /* PBXTargetDependency */,
+			);
+			name = "EasyCode-XcodeTests";
+			productName = "EasyCode-XcodeTests";
+			productReference = CD3403B9280D5C5800D014A1 /* EasyCode-XcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3403C3280D5C5800D014A1 /* EasyCode-XcodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3403D3280D5C5800D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-XcodeUITests" */;
+			buildPhases = (
+				CD3403C0280D5C5800D014A1 /* Sources */,
+				CD3403C1280D5C5800D014A1 /* Frameworks */,
+				CD3403C2280D5C5800D014A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3403C6280D5C5800D014A1 /* PBXTargetDependency */,
+			);
+			name = "EasyCode-XcodeUITests";
+			productName = "EasyCode-XcodeUITests";
+			productReference = CD3403C4280D5C5800D014A1 /* EasyCode-XcodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD3403D9280D5C8000D014A1 /* EC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3403EC280D5C8000D014A1 /* Build configuration list for PBXNativeTarget "EC" */;
+			buildPhases = (
+				CD3403D6280D5C8000D014A1 /* Sources */,
+				CD3403D7280D5C8000D014A1 /* Frameworks */,
+				CD3403D8280D5C8000D014A1 /* Resources */,
+				CD3403F3280D5C8D00D014A1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EC;
+			productName = EC;
+			productReference = CD3403DA280D5C8000D014A1 /* EC.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD34039E280D5C5700D014A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CD3403A5280D5C5700D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CD3403B8280D5C5800D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CD3403A5280D5C5700D014A1;
+					};
+					CD3403C3280D5C5800D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CD3403A5280D5C5700D014A1;
+					};
+					CD3403D9280D5C8000D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = CD3403A1280D5C5700D014A1 /* Build configuration list for PBXProject "EasyCode-Xcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD34039D280D5C5700D014A1;
+			productRefGroup = CD3403A7280D5C5700D014A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3403A5280D5C5700D014A1 /* EasyCode-Xcode */,
+				CD3403B8280D5C5800D014A1 /* EasyCode-XcodeTests */,
+				CD3403C3280D5C5800D014A1 /* EasyCode-XcodeUITests */,
+				CD3403D9280D5C8000D014A1 /* EC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3403A4280D5C5700D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3403AD280D5C5800D014A1 /* Assets.xcassets in Resources */,
+				CD3403B0280D5C5800D014A1 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3403B7280D5C5800D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3403C2280D5C5800D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3403D8280D5C8000D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3403A2280D5C5700D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3403B3280D5C5800D014A1 /* main.m in Sources */,
+				CD3403AB280D5C5700D014A1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3403B5280D5C5800D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3403BE280D5C5800D014A1 /* EasyCode_XcodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3403C0280D5C5800D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3403C9280D5C5800D014A1 /* EasyCode_XcodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3403D6280D5C8000D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3404C7280D651200D014A1 /* ECMappingHelper.m in Sources */,
+				CD3404CD280D658000D014A1 /* ESharedUserDefault.m in Sources */,
+				CD3404A6280D621A00D014A1 /* ECGenerateHelper.m in Sources */,
+				CD3404BE280D646900D014A1 /* NSString+PDRegex.m in Sources */,
+				CD34049F280D61B100D014A1 /* ECMappingForObjectiveC.m in Sources */,
+				CD3404C1280D64B200D014A1 /* FSElementPool.m in Sources */,
+				CD3404B8280D638900D014A1 /* FSElementCache.m in Sources */,
+				CD3404AC280D62D600D014A1 /* FSImpProcessor.m in Sources */,
+				CD3404BB280D63B600D014A1 /* FSElementProcessor.m in Sources */,
+				CD3404AF280D633500D014A1 /* FSInterfaceProcessor.m in Sources */,
+				CD3404CA280D657000D014A1 /* ECMappingForSwift.m in Sources */,
+				CD3403E3280D5C8000D014A1 /* SourceEditorExtension.m in Sources */,
+				CD3404A9280D623500D014A1 /* ECFileParser.m in Sources */,
+				CD3404A2280D61F100D014A1 /* ECMapping.m in Sources */,
+				CD3404C3280D64F100D014A1 /* FSElementProperty.m in Sources */,
+				CD3404B2280D634C00D014A1 /* FSProtocolProcessor.m in Sources */,
+				CD3403F6280D5DE400D014A1 /* EasyCodeManager.m in Sources */,
+				CD3403E6280D5C8000D014A1 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3403BB280D5C5800D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3403A5280D5C5700D014A1 /* EasyCode-Xcode */;
+			targetProxy = CD3403BA280D5C5800D014A1 /* PBXContainerItemProxy */;
+		};
+		CD3403C6280D5C5800D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3403A5280D5C5700D014A1 /* EasyCode-Xcode */;
+			targetProxy = CD3403C5280D5C5800D014A1 /* PBXContainerItemProxy */;
+		};
+		CD3403EA280D5C8000D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3403D9280D5C8000D014A1 /* EC */;
+			targetProxy = CD3403E9280D5C8000D014A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3403AE280D5C5800D014A1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3403AF280D5C5800D014A1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3403CB280D5C5800D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD3403CC280D5C5800D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD3403CE280D5C5800D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EasyCode-Xcode/EasyCode_Xcode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "EasyCode-Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD3403CF280D5C5800D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EasyCode-Xcode/EasyCode_Xcode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "EasyCode-Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD3403D1280D5C5800D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = "EasyCode-XcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-XcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyCode-Xcode.app/Contents/MacOS/EasyCode-Xcode";
+			};
+			name = Debug;
+		};
+		CD3403D2280D5C5800D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = "EasyCode-XcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-XcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyCode-Xcode.app/Contents/MacOS/EasyCode-Xcode";
+			};
+			name = Release;
+		};
+		CD3403D4280D5C5800D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = "EasyCode-XcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-XcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "EasyCode-Xcode";
+			};
+			name = Debug;
+		};
+		CD3403D5280D5C5800D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = "EasyCode-XcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-XcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "EasyCode-Xcode";
+			};
+			name = Release;
+		};
+		CD3403ED280D5C8000D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EC/EC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = EC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-Xcode.EC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD3403EE280D5C8000D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EC/EC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = EC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-Xcode.EC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3403A1280D5C5700D014A1 /* Build configuration list for PBXProject "EasyCode-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3403CB280D5C5800D014A1 /* Debug */,
+				CD3403CC280D5C5800D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3403CD280D5C5800D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3403CE280D5C5800D014A1 /* Debug */,
+				CD3403CF280D5C5800D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3403D0280D5C5800D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-XcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3403D1280D5C5800D014A1 /* Debug */,
+				CD3403D2280D5C5800D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3403D3280D5C5800D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-XcodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3403D4280D5C5800D014A1 /* Debug */,
+				CD3403D5280D5C5800D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3403EC280D5C8000D014A1 /* Build configuration list for PBXNativeTarget "EC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3403ED280D5C8000D014A1 /* Debug */,
+				CD3403EE280D5C8000D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD34039E280D5C5700D014A1 /* Project object */;
+}

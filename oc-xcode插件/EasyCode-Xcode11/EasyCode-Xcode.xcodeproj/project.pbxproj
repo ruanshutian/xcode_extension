@@ -1,0 +1,1070 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD3401BB280D044F00D014A1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3401BA280D044F00D014A1 /* AppDelegate.m */; };
+		CD3401BD280D045100D014A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD3401BC280D045100D014A1 /* Assets.xcassets */; };
+		CD3401C0280D045100D014A1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3401BE280D045100D014A1 /* MainMenu.xib */; };
+		CD3401C3280D045100D014A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3401C2280D045100D014A1 /* main.m */; };
+		CD3401CE280D045100D014A1 /* EasyCode_XcodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3401CD280D045100D014A1 /* EasyCode_XcodeTests.m */; };
+		CD3401D9280D045100D014A1 /* EasyCode_XcodeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3401D8280D045100D014A1 /* EasyCode_XcodeUITests.m */; };
+		CD3401ED280D052B00D014A1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3401EC280D052B00D014A1 /* Cocoa.framework */; };
+		CD3401EF280D052B00D014A1 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD3401EE280D052B00D014A1 /* XcodeKit.framework */; };
+		CD3401F3280D052B00D014A1 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3401F2280D052B00D014A1 /* SourceEditorExtension.m */; };
+		CD3401F6280D052B00D014A1 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3401F5280D052B00D014A1 /* SourceEditorCommand.m */; };
+		CD3401FB280D052B00D014A1 /* EC.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD3401EA280D052B00D014A1 /* EC.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD340201280D067A00D014A1 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD340200280D067A00D014A1 /* XcodeKit.framework */; };
+		CD340202280D067A00D014A1 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD340200280D067A00D014A1 /* XcodeKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		CD340231280D588000D014A1 /* EditorWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340222280D588000D014A1 /* EditorWindowController.m */; };
+		CD340232280D588000D014A1 /* DetailWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340224280D588000D014A1 /* DetailWindowController.m */; };
+		CD340233280D588000D014A1 /* DetailWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD340226280D588000D014A1 /* DetailWindowController.xib */; };
+		CD340234280D588000D014A1 /* EShortcutEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340227280D588000D014A1 /* EShortcutEntry.m */; };
+		CD340235280D588000D014A1 /* EditorWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD340229280D588000D014A1 /* EditorWindowController.xib */; };
+		CD340236280D588000D014A1 /* EEditorTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34022A280D588000D014A1 /* EEditorTableView.m */; };
+		CD340237280D588000D014A1 /* EVerticalScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34022B280D588000D014A1 /* EVerticalScrollView.m */; };
+		CD340238280D588000D014A1 /* CustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34022E280D588000D014A1 /* CustomButton.m */; };
+		CD34023C280D58A800D014A1 /* ESharedUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34023B280D58A800D014A1 /* ESharedUserDefault.m */; };
+		CD340249280D58C700D014A1 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = CD34023E280D58C700D014A1 /* add.png */; };
+		CD34024A280D58C700D014A1 /* btnbg2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD34023F280D58C700D014A1 /* btnbg2.png */; };
+		CD34024B280D58C700D014A1 /* btnbg.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340240280D58C700D014A1 /* btnbg.png */; };
+		CD34024C280D58C700D014A1 /* mainbg.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340241280D58C700D014A1 /* mainbg.png */; };
+		CD34024D280D58C700D014A1 /* btnbg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340242280D58C700D014A1 /* btnbg2@2x.png */; };
+		CD34024E280D58C700D014A1 /* btnguide.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340243280D58C700D014A1 /* btnguide.png */; };
+		CD34024F280D58C700D014A1 /* btnbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340244280D58C700D014A1 /* btnbg@2x.png */; };
+		CD340250280D58C700D014A1 /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340245280D58C700D014A1 /* remove.png */; };
+		CD340251280D58C700D014A1 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340246280D58C700D014A1 /* edit.png */; };
+		CD340252280D58C700D014A1 /* mainbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340247280D58C700D014A1 /* mainbg@2x.png */; };
+		CD340253280D58C700D014A1 /* btnguide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340248280D58C700D014A1 /* btnguide@2x.png */; };
+		CD340256280D58FC00D014A1 /* EasyCodeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340255280D58FC00D014A1 /* EasyCodeManager.m */; };
+		CD3402FE280D596100D014A1 /* ECGenerateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3402FD280D596100D014A1 /* ECGenerateHelper.m */; };
+		CD340317280D598F00D014A1 /* FSElementCache.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340303280D598F00D014A1 /* FSElementCache.m */; };
+		CD340318280D598F00D014A1 /* FSElementProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340306280D598F00D014A1 /* FSElementProperty.m */; };
+		CD340319280D598F00D014A1 /* FSElementPool.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340307280D598F00D014A1 /* FSElementPool.m */; };
+		CD34031A280D598F00D014A1 /* FSExtensionProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340309280D598F00D014A1 /* FSExtensionProcessor.m */; };
+		CD34031B280D598F00D014A1 /* FSCategoryProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34030C280D598F00D014A1 /* FSCategoryProcessor.m */; };
+		CD34031C280D598F00D014A1 /* FSProtocolProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34030D280D598F00D014A1 /* FSProtocolProcessor.m */; };
+		CD34031D280D598F00D014A1 /* FSElementProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34030E280D598F00D014A1 /* FSElementProcessor.m */; };
+		CD34031E280D598F00D014A1 /* FSImpProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340310280D598F00D014A1 /* FSImpProcessor.m */; };
+		CD34031F280D598F00D014A1 /* FSInterfaceProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340311280D598F00D014A1 /* FSInterfaceProcessor.m */; };
+		CD340320280D598F00D014A1 /* ECFileParser.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340315280D598F00D014A1 /* ECFileParser.m */; };
+		CD340324280D59B400D014A1 /* NSString+PDRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340323280D59B400D014A1 /* NSString+PDRegex.m */; };
+		CD340327280D5A0700D014A1 /* ECMappingHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340326280D5A0700D014A1 /* ECMappingHelper.m */; };
+		CD34037C280D5A7C00D014A1 /* ECMappingForObjectiveC.m in Sources */ = {isa = PBXBuildFile; fileRef = CD34037B280D5A7C00D014A1 /* ECMappingForObjectiveC.m */; };
+		CD340381280D5AAC00D014A1 /* ECMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340380280D5AAC00D014A1 /* ECMapping.m */; };
+		CD340384280D5AC800D014A1 /* ECMappingForSwift.m in Sources */ = {isa = PBXBuildFile; fileRef = CD340383280D5AC800D014A1 /* ECMappingForSwift.m */; };
+		CD340392280D5AED00D014A1 /* add.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340387280D5AED00D014A1 /* add.png */; };
+		CD340393280D5AED00D014A1 /* btnbg2.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340388280D5AED00D014A1 /* btnbg2.png */; };
+		CD340394280D5AED00D014A1 /* btnbg.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340389280D5AED00D014A1 /* btnbg.png */; };
+		CD340395280D5AED00D014A1 /* mainbg.png in Resources */ = {isa = PBXBuildFile; fileRef = CD34038A280D5AED00D014A1 /* mainbg.png */; };
+		CD340396280D5AED00D014A1 /* btnbg2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD34038B280D5AED00D014A1 /* btnbg2@2x.png */; };
+		CD340397280D5AED00D014A1 /* btnguide.png in Resources */ = {isa = PBXBuildFile; fileRef = CD34038C280D5AED00D014A1 /* btnguide.png */; };
+		CD340398280D5AED00D014A1 /* btnbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD34038D280D5AED00D014A1 /* btnbg@2x.png */; };
+		CD340399280D5AED00D014A1 /* remove.png in Resources */ = {isa = PBXBuildFile; fileRef = CD34038E280D5AED00D014A1 /* remove.png */; };
+		CD34039A280D5AED00D014A1 /* edit.png in Resources */ = {isa = PBXBuildFile; fileRef = CD34038F280D5AED00D014A1 /* edit.png */; };
+		CD34039B280D5AED00D014A1 /* mainbg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340390280D5AED00D014A1 /* mainbg@2x.png */; };
+		CD34039C280D5AED00D014A1 /* btnguide@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD340391280D5AED00D014A1 /* btnguide@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD3401CA280D045100D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3401AE280D044F00D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3401B5280D044F00D014A1;
+			remoteInfo = "EasyCode-Xcode";
+		};
+		CD3401D5280D045100D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3401AE280D044F00D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3401B5280D044F00D014A1;
+			remoteInfo = "EasyCode-Xcode";
+		};
+		CD3401F9280D052B00D014A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD3401AE280D044F00D014A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD3401E9280D052B00D014A1;
+			remoteInfo = EC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD3401FF280D052B00D014A1 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD3401FB280D052B00D014A1 /* EC.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD340203280D067A00D014A1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD340202280D067A00D014A1 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD3401B6280D044F00D014A1 /* EasyCode-Xcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EasyCode-Xcode.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3401B9280D044F00D014A1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD3401BA280D044F00D014A1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD3401BC280D045100D014A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD3401BF280D045100D014A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD3401C1280D045100D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3401C2280D045100D014A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD3401C4280D045100D014A1 /* EasyCode_Xcode.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EasyCode_Xcode.entitlements; sourceTree = "<group>"; };
+		CD3401C9280D045100D014A1 /* EasyCode-XcodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyCode-XcodeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3401CD280D045100D014A1 /* EasyCode_XcodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCode_XcodeTests.m; sourceTree = "<group>"; };
+		CD3401CF280D045100D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3401D4280D045100D014A1 /* EasyCode-XcodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EasyCode-XcodeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3401D8280D045100D014A1 /* EasyCode_XcodeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCode_XcodeUITests.m; sourceTree = "<group>"; };
+		CD3401DA280D045100D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3401EA280D052B00D014A1 /* EC.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = EC.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD3401EC280D052B00D014A1 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD3401EE280D052B00D014A1 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD3401F1280D052B00D014A1 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD3401F2280D052B00D014A1 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD3401F4280D052B00D014A1 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD3401F5280D052B00D014A1 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD3401F7280D052B00D014A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD3401F8280D052B00D014A1 /* EC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = EC.entitlements; sourceTree = "<group>"; };
+		CD340200280D067A00D014A1 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD340222280D588000D014A1 /* EditorWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditorWindowController.m; sourceTree = "<group>"; };
+		CD340224280D588000D014A1 /* DetailWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailWindowController.m; sourceTree = "<group>"; };
+		CD340225280D588000D014A1 /* DetailWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailWindowController.h; sourceTree = "<group>"; };
+		CD340226280D588000D014A1 /* DetailWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailWindowController.xib; sourceTree = "<group>"; };
+		CD340227280D588000D014A1 /* EShortcutEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EShortcutEntry.m; sourceTree = "<group>"; };
+		CD340228280D588000D014A1 /* CustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomButton.h; sourceTree = "<group>"; };
+		CD340229280D588000D014A1 /* EditorWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EditorWindowController.xib; sourceTree = "<group>"; };
+		CD34022A280D588000D014A1 /* EEditorTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EEditorTableView.m; sourceTree = "<group>"; };
+		CD34022B280D588000D014A1 /* EVerticalScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVerticalScrollView.m; sourceTree = "<group>"; };
+		CD34022C280D588000D014A1 /* EditorWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditorWindowController.h; sourceTree = "<group>"; };
+		CD34022D280D588000D014A1 /* EShortcutEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EShortcutEntry.h; sourceTree = "<group>"; };
+		CD34022E280D588000D014A1 /* CustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomButton.m; sourceTree = "<group>"; };
+		CD34022F280D588000D014A1 /* EEditorTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EEditorTableView.h; sourceTree = "<group>"; };
+		CD340230280D588000D014A1 /* EVerticalScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVerticalScrollView.h; sourceTree = "<group>"; };
+		CD34023A280D58A800D014A1 /* ESharedUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ESharedUserDefault.h; sourceTree = "<group>"; };
+		CD34023B280D58A800D014A1 /* ESharedUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ESharedUserDefault.m; sourceTree = "<group>"; };
+		CD34023E280D58C700D014A1 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		CD34023F280D58C700D014A1 /* btnbg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnbg2.png; sourceTree = "<group>"; };
+		CD340240280D58C700D014A1 /* btnbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnbg.png; sourceTree = "<group>"; };
+		CD340241280D58C700D014A1 /* mainbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbg.png; sourceTree = "<group>"; };
+		CD340242280D58C700D014A1 /* btnbg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnbg2@2x.png"; sourceTree = "<group>"; };
+		CD340243280D58C700D014A1 /* btnguide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnguide.png; sourceTree = "<group>"; };
+		CD340244280D58C700D014A1 /* btnbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnbg@2x.png"; sourceTree = "<group>"; };
+		CD340245280D58C700D014A1 /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove.png; sourceTree = "<group>"; };
+		CD340246280D58C700D014A1 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		CD340247280D58C700D014A1 /* mainbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainbg@2x.png"; sourceTree = "<group>"; };
+		CD340248280D58C700D014A1 /* btnguide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnguide@2x.png"; sourceTree = "<group>"; };
+		CD340254280D58EA00D014A1 /* EasyCodeManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCodeManager.h; sourceTree = "<group>"; };
+		CD340255280D58FC00D014A1 /* EasyCodeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyCodeManager.m; sourceTree = "<group>"; };
+		CD3402FD280D596100D014A1 /* ECGenerateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECGenerateHelper.m; sourceTree = "<group>"; };
+		CD3402FF280D596900D014A1 /* ECGenerateHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECGenerateHelper.h; sourceTree = "<group>"; };
+		CD340301280D598F00D014A1 /* ECFileParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECFileParser.h; sourceTree = "<group>"; };
+		CD340303280D598F00D014A1 /* FSElementCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSElementCache.m; sourceTree = "<group>"; };
+		CD340304280D598F00D014A1 /* FSElementProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSElementProperty.h; sourceTree = "<group>"; };
+		CD340305280D598F00D014A1 /* FSElementCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSElementCache.h; sourceTree = "<group>"; };
+		CD340306280D598F00D014A1 /* FSElementProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSElementProperty.m; sourceTree = "<group>"; };
+		CD340307280D598F00D014A1 /* FSElementPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSElementPool.m; sourceTree = "<group>"; };
+		CD340309280D598F00D014A1 /* FSExtensionProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSExtensionProcessor.m; sourceTree = "<group>"; };
+		CD34030A280D598F00D014A1 /* FSInterfaceProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSInterfaceProcessor.h; sourceTree = "<group>"; };
+		CD34030B280D598F00D014A1 /* FSImpProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSImpProcessor.h; sourceTree = "<group>"; };
+		CD34030C280D598F00D014A1 /* FSCategoryProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCategoryProcessor.m; sourceTree = "<group>"; };
+		CD34030D280D598F00D014A1 /* FSProtocolProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSProtocolProcessor.m; sourceTree = "<group>"; };
+		CD34030E280D598F00D014A1 /* FSElementProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSElementProcessor.m; sourceTree = "<group>"; };
+		CD34030F280D598F00D014A1 /* FSExtensionProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSExtensionProcessor.h; sourceTree = "<group>"; };
+		CD340310280D598F00D014A1 /* FSImpProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSImpProcessor.m; sourceTree = "<group>"; };
+		CD340311280D598F00D014A1 /* FSInterfaceProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSInterfaceProcessor.m; sourceTree = "<group>"; };
+		CD340312280D598F00D014A1 /* FSCategoryProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCategoryProcessor.h; sourceTree = "<group>"; };
+		CD340313280D598F00D014A1 /* FSElementProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSElementProcessor.h; sourceTree = "<group>"; };
+		CD340314280D598F00D014A1 /* FSProtocolProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSProtocolProcessor.h; sourceTree = "<group>"; };
+		CD340315280D598F00D014A1 /* ECFileParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECFileParser.m; sourceTree = "<group>"; };
+		CD340316280D598F00D014A1 /* FSElementPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSElementPool.h; sourceTree = "<group>"; };
+		CD340322280D59B400D014A1 /* NSString+PDRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PDRegex.h"; sourceTree = "<group>"; };
+		CD340323280D59B400D014A1 /* NSString+PDRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PDRegex.m"; sourceTree = "<group>"; };
+		CD340325280D5A0200D014A1 /* ECMappingHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECMappingHelper.h; sourceTree = "<group>"; };
+		CD340326280D5A0700D014A1 /* ECMappingHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMappingHelper.m; sourceTree = "<group>"; };
+		CD34037B280D5A7C00D014A1 /* ECMappingForObjectiveC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMappingForObjectiveC.m; sourceTree = "<group>"; };
+		CD34037D280D5A8600D014A1 /* ECMappingForObjectiveC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECMappingForObjectiveC.h; sourceTree = "<group>"; };
+		CD34037E280D5A8B00D014A1 /* OCMapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCMapping.h; sourceTree = "<group>"; };
+		CD34037F280D5AA700D014A1 /* ECMapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECMapping.h; sourceTree = "<group>"; };
+		CD340380280D5AAC00D014A1 /* ECMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMapping.m; sourceTree = "<group>"; };
+		CD340382280D5AC200D014A1 /* ECMappingForSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ECMappingForSwift.h; sourceTree = "<group>"; };
+		CD340383280D5AC800D014A1 /* ECMappingForSwift.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ECMappingForSwift.m; sourceTree = "<group>"; };
+		CD340385280D5ACE00D014A1 /* SwiftMapping.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftMapping.h; sourceTree = "<group>"; };
+		CD340387280D5AED00D014A1 /* add.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = add.png; sourceTree = "<group>"; };
+		CD340388280D5AED00D014A1 /* btnbg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnbg2.png; sourceTree = "<group>"; };
+		CD340389280D5AED00D014A1 /* btnbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnbg.png; sourceTree = "<group>"; };
+		CD34038A280D5AED00D014A1 /* mainbg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainbg.png; sourceTree = "<group>"; };
+		CD34038B280D5AED00D014A1 /* btnbg2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnbg2@2x.png"; sourceTree = "<group>"; };
+		CD34038C280D5AED00D014A1 /* btnguide.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btnguide.png; sourceTree = "<group>"; };
+		CD34038D280D5AED00D014A1 /* btnbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnbg@2x.png"; sourceTree = "<group>"; };
+		CD34038E280D5AED00D014A1 /* remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = remove.png; sourceTree = "<group>"; };
+		CD34038F280D5AED00D014A1 /* edit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = edit.png; sourceTree = "<group>"; };
+		CD340390280D5AED00D014A1 /* mainbg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mainbg@2x.png"; sourceTree = "<group>"; };
+		CD340391280D5AED00D014A1 /* btnguide@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnguide@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD3401B3280D044F00D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3401C6280D045100D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3401D1280D045100D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3401E7280D052B00D014A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD340201280D067A00D014A1 /* XcodeKit.framework in Frameworks */,
+				CD3401ED280D052B00D014A1 /* Cocoa.framework in Frameworks */,
+				CD3401EF280D052B00D014A1 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD3401AD280D044F00D014A1 = {
+			isa = PBXGroup;
+			children = (
+				CD3401B8280D044F00D014A1 /* EasyCode-Xcode */,
+				CD3401CC280D045100D014A1 /* EasyCode-XcodeTests */,
+				CD3401D7280D045100D014A1 /* EasyCode-XcodeUITests */,
+				CD3401F0280D052B00D014A1 /* EC */,
+				CD3401EB280D052B00D014A1 /* Frameworks */,
+				CD3401B7280D044F00D014A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD3401B7280D044F00D014A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD3401B6280D044F00D014A1 /* EasyCode-Xcode.app */,
+				CD3401C9280D045100D014A1 /* EasyCode-XcodeTests.xctest */,
+				CD3401D4280D045100D014A1 /* EasyCode-XcodeUITests.xctest */,
+				CD3401EA280D052B00D014A1 /* EC.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD3401B8280D044F00D014A1 /* EasyCode-Xcode */ = {
+			isa = PBXGroup;
+			children = (
+				CD34023D280D58C700D014A1 /* Resource */,
+				CD340386280D5AED00D014A1 /* Resource */,
+				CD340221280D588000D014A1 /* MappingEditor */,
+				CD340239280D58A800D014A1 /* SharedLogic */,
+				CD3401B9280D044F00D014A1 /* AppDelegate.h */,
+				CD3401BA280D044F00D014A1 /* AppDelegate.m */,
+				CD3401BC280D045100D014A1 /* Assets.xcassets */,
+				CD3401BE280D045100D014A1 /* MainMenu.xib */,
+				CD3401C1280D045100D014A1 /* Info.plist */,
+				CD3401C2280D045100D014A1 /* main.m */,
+				CD3401C4280D045100D014A1 /* EasyCode_Xcode.entitlements */,
+			);
+			path = "EasyCode-Xcode";
+			sourceTree = "<group>";
+		};
+		CD3401CC280D045100D014A1 /* EasyCode-XcodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3401CD280D045100D014A1 /* EasyCode_XcodeTests.m */,
+				CD3401CF280D045100D014A1 /* Info.plist */,
+			);
+			path = "EasyCode-XcodeTests";
+			sourceTree = "<group>";
+		};
+		CD3401D7280D045100D014A1 /* EasyCode-XcodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD3401D8280D045100D014A1 /* EasyCode_XcodeUITests.m */,
+				CD3401DA280D045100D014A1 /* Info.plist */,
+			);
+			path = "EasyCode-XcodeUITests";
+			sourceTree = "<group>";
+		};
+		CD3401EB280D052B00D014A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD340200280D067A00D014A1 /* XcodeKit.framework */,
+				CD3401EC280D052B00D014A1 /* Cocoa.framework */,
+				CD3401EE280D052B00D014A1 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD3401F0280D052B00D014A1 /* EC */ = {
+			isa = PBXGroup;
+			children = (
+				CD3401F1280D052B00D014A1 /* SourceEditorExtension.h */,
+				CD3401F2280D052B00D014A1 /* SourceEditorExtension.m */,
+				CD3401F4280D052B00D014A1 /* SourceEditorCommand.h */,
+				CD3401F5280D052B00D014A1 /* SourceEditorCommand.m */,
+				CD340254280D58EA00D014A1 /* EasyCodeManager.h */,
+				CD340255280D58FC00D014A1 /* EasyCodeManager.m */,
+				CD3402FF280D596900D014A1 /* ECGenerateHelper.h */,
+				CD3402FD280D596100D014A1 /* ECGenerateHelper.m */,
+				CD340325280D5A0200D014A1 /* ECMappingHelper.h */,
+				CD340326280D5A0700D014A1 /* ECMappingHelper.m */,
+				CD34037B280D5A7C00D014A1 /* ECMappingForObjectiveC.m */,
+				CD34037D280D5A8600D014A1 /* ECMappingForObjectiveC.h */,
+				CD34037E280D5A8B00D014A1 /* OCMapping.h */,
+				CD340382280D5AC200D014A1 /* ECMappingForSwift.h */,
+				CD340383280D5AC800D014A1 /* ECMappingForSwift.m */,
+				CD340385280D5ACE00D014A1 /* SwiftMapping.h */,
+				CD340321280D59B400D014A1 /* NSString+PDRegex */,
+				CD340300280D598F00D014A1 /* ECFileParser */,
+				CD3401F7280D052B00D014A1 /* Info.plist */,
+				CD3401F8280D052B00D014A1 /* EC.entitlements */,
+			);
+			path = EC;
+			sourceTree = "<group>";
+		};
+		CD340221280D588000D014A1 /* MappingEditor */ = {
+			isa = PBXGroup;
+			children = (
+				CD340222280D588000D014A1 /* EditorWindowController.m */,
+				CD340223280D588000D014A1 /* DetailEditorController */,
+				CD340227280D588000D014A1 /* EShortcutEntry.m */,
+				CD340228280D588000D014A1 /* CustomButton.h */,
+				CD340229280D588000D014A1 /* EditorWindowController.xib */,
+				CD34022A280D588000D014A1 /* EEditorTableView.m */,
+				CD34022B280D588000D014A1 /* EVerticalScrollView.m */,
+				CD34022C280D588000D014A1 /* EditorWindowController.h */,
+				CD34022D280D588000D014A1 /* EShortcutEntry.h */,
+				CD34022E280D588000D014A1 /* CustomButton.m */,
+				CD34022F280D588000D014A1 /* EEditorTableView.h */,
+				CD340230280D588000D014A1 /* EVerticalScrollView.h */,
+			);
+			path = MappingEditor;
+			sourceTree = "<group>";
+		};
+		CD340223280D588000D014A1 /* DetailEditorController */ = {
+			isa = PBXGroup;
+			children = (
+				CD340224280D588000D014A1 /* DetailWindowController.m */,
+				CD340225280D588000D014A1 /* DetailWindowController.h */,
+				CD340226280D588000D014A1 /* DetailWindowController.xib */,
+			);
+			path = DetailEditorController;
+			sourceTree = "<group>";
+		};
+		CD340239280D58A800D014A1 /* SharedLogic */ = {
+			isa = PBXGroup;
+			children = (
+				CD34023A280D58A800D014A1 /* ESharedUserDefault.h */,
+				CD34023B280D58A800D014A1 /* ESharedUserDefault.m */,
+				CD34037F280D5AA700D014A1 /* ECMapping.h */,
+				CD340380280D5AAC00D014A1 /* ECMapping.m */,
+			);
+			path = SharedLogic;
+			sourceTree = "<group>";
+		};
+		CD34023D280D58C700D014A1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CD34023E280D58C700D014A1 /* add.png */,
+				CD34023F280D58C700D014A1 /* btnbg2.png */,
+				CD340240280D58C700D014A1 /* btnbg.png */,
+				CD340241280D58C700D014A1 /* mainbg.png */,
+				CD340242280D58C700D014A1 /* btnbg2@2x.png */,
+				CD340243280D58C700D014A1 /* btnguide.png */,
+				CD340244280D58C700D014A1 /* btnbg@2x.png */,
+				CD340245280D58C700D014A1 /* remove.png */,
+				CD340246280D58C700D014A1 /* edit.png */,
+				CD340247280D58C700D014A1 /* mainbg@2x.png */,
+				CD340248280D58C700D014A1 /* btnguide@2x.png */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		CD340300280D598F00D014A1 /* ECFileParser */ = {
+			isa = PBXGroup;
+			children = (
+				CD340301280D598F00D014A1 /* ECFileParser.h */,
+				CD340302280D598F00D014A1 /* Models */,
+				CD340307280D598F00D014A1 /* FSElementPool.m */,
+				CD340308280D598F00D014A1 /* Processors */,
+				CD340315280D598F00D014A1 /* ECFileParser.m */,
+				CD340316280D598F00D014A1 /* FSElementPool.h */,
+			);
+			path = ECFileParser;
+			sourceTree = "<group>";
+		};
+		CD340302280D598F00D014A1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD340303280D598F00D014A1 /* FSElementCache.m */,
+				CD340304280D598F00D014A1 /* FSElementProperty.h */,
+				CD340305280D598F00D014A1 /* FSElementCache.h */,
+				CD340306280D598F00D014A1 /* FSElementProperty.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CD340308280D598F00D014A1 /* Processors */ = {
+			isa = PBXGroup;
+			children = (
+				CD340309280D598F00D014A1 /* FSExtensionProcessor.m */,
+				CD34030A280D598F00D014A1 /* FSInterfaceProcessor.h */,
+				CD34030B280D598F00D014A1 /* FSImpProcessor.h */,
+				CD34030C280D598F00D014A1 /* FSCategoryProcessor.m */,
+				CD34030D280D598F00D014A1 /* FSProtocolProcessor.m */,
+				CD34030E280D598F00D014A1 /* FSElementProcessor.m */,
+				CD34030F280D598F00D014A1 /* FSExtensionProcessor.h */,
+				CD340310280D598F00D014A1 /* FSImpProcessor.m */,
+				CD340311280D598F00D014A1 /* FSInterfaceProcessor.m */,
+				CD340312280D598F00D014A1 /* FSCategoryProcessor.h */,
+				CD340313280D598F00D014A1 /* FSElementProcessor.h */,
+				CD340314280D598F00D014A1 /* FSProtocolProcessor.h */,
+			);
+			path = Processors;
+			sourceTree = "<group>";
+		};
+		CD340321280D59B400D014A1 /* NSString+PDRegex */ = {
+			isa = PBXGroup;
+			children = (
+				CD340322280D59B400D014A1 /* NSString+PDRegex.h */,
+				CD340323280D59B400D014A1 /* NSString+PDRegex.m */,
+			);
+			path = "NSString+PDRegex";
+			sourceTree = "<group>";
+		};
+		CD340386280D5AED00D014A1 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CD340387280D5AED00D014A1 /* add.png */,
+				CD340388280D5AED00D014A1 /* btnbg2.png */,
+				CD340389280D5AED00D014A1 /* btnbg.png */,
+				CD34038A280D5AED00D014A1 /* mainbg.png */,
+				CD34038B280D5AED00D014A1 /* btnbg2@2x.png */,
+				CD34038C280D5AED00D014A1 /* btnguide.png */,
+				CD34038D280D5AED00D014A1 /* btnbg@2x.png */,
+				CD34038E280D5AED00D014A1 /* remove.png */,
+				CD34038F280D5AED00D014A1 /* edit.png */,
+				CD340390280D5AED00D014A1 /* mainbg@2x.png */,
+				CD340391280D5AED00D014A1 /* btnguide@2x.png */,
+			);
+			name = Resource;
+			path = SharedLogic/Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD3401B5280D044F00D014A1 /* EasyCode-Xcode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3401DD280D045100D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-Xcode" */;
+			buildPhases = (
+				CD3401B2280D044F00D014A1 /* Sources */,
+				CD3401B3280D044F00D014A1 /* Frameworks */,
+				CD3401B4280D044F00D014A1 /* Resources */,
+				CD3401FF280D052B00D014A1 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3401FA280D052B00D014A1 /* PBXTargetDependency */,
+			);
+			name = "EasyCode-Xcode";
+			productName = "EasyCode-Xcode";
+			productReference = CD3401B6280D044F00D014A1 /* EasyCode-Xcode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD3401C8280D045100D014A1 /* EasyCode-XcodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3401E0280D045100D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-XcodeTests" */;
+			buildPhases = (
+				CD3401C5280D045100D014A1 /* Sources */,
+				CD3401C6280D045100D014A1 /* Frameworks */,
+				CD3401C7280D045100D014A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3401CB280D045100D014A1 /* PBXTargetDependency */,
+			);
+			name = "EasyCode-XcodeTests";
+			productName = "EasyCode-XcodeTests";
+			productReference = CD3401C9280D045100D014A1 /* EasyCode-XcodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD3401D3280D045100D014A1 /* EasyCode-XcodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3401E3280D045100D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-XcodeUITests" */;
+			buildPhases = (
+				CD3401D0280D045100D014A1 /* Sources */,
+				CD3401D1280D045100D014A1 /* Frameworks */,
+				CD3401D2280D045100D014A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD3401D6280D045100D014A1 /* PBXTargetDependency */,
+			);
+			name = "EasyCode-XcodeUITests";
+			productName = "EasyCode-XcodeUITests";
+			productReference = CD3401D4280D045100D014A1 /* EasyCode-XcodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD3401E9280D052B00D014A1 /* EC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD3401FC280D052B00D014A1 /* Build configuration list for PBXNativeTarget "EC" */;
+			buildPhases = (
+				CD3401E6280D052B00D014A1 /* Sources */,
+				CD3401E7280D052B00D014A1 /* Frameworks */,
+				CD3401E8280D052B00D014A1 /* Resources */,
+				CD340203280D067A00D014A1 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EC;
+			productName = EC;
+			productReference = CD3401EA280D052B00D014A1 /* EC.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD3401AE280D044F00D014A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					CD3401B5280D044F00D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					CD3401C8280D045100D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CD3401B5280D044F00D014A1;
+					};
+					CD3401D3280D045100D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = CD3401B5280D044F00D014A1;
+					};
+					CD3401E9280D052B00D014A1 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = CD3401B1280D044F00D014A1 /* Build configuration list for PBXProject "EasyCode-Xcode" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD3401AD280D044F00D014A1;
+			productRefGroup = CD3401B7280D044F00D014A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD3401B5280D044F00D014A1 /* EasyCode-Xcode */,
+				CD3401C8280D045100D014A1 /* EasyCode-XcodeTests */,
+				CD3401D3280D045100D014A1 /* EasyCode-XcodeUITests */,
+				CD3401E9280D052B00D014A1 /* EC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD3401B4280D044F00D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3401BD280D045100D014A1 /* Assets.xcassets in Resources */,
+				CD340396280D5AED00D014A1 /* btnbg2@2x.png in Resources */,
+				CD34024E280D58C700D014A1 /* btnguide.png in Resources */,
+				CD340395280D5AED00D014A1 /* mainbg.png in Resources */,
+				CD340233280D588000D014A1 /* DetailWindowController.xib in Resources */,
+				CD340392280D5AED00D014A1 /* add.png in Resources */,
+				CD340251280D58C700D014A1 /* edit.png in Resources */,
+				CD340397280D5AED00D014A1 /* btnguide.png in Resources */,
+				CD340250280D58C700D014A1 /* remove.png in Resources */,
+				CD340235280D588000D014A1 /* EditorWindowController.xib in Resources */,
+				CD340398280D5AED00D014A1 /* btnbg@2x.png in Resources */,
+				CD340253280D58C700D014A1 /* btnguide@2x.png in Resources */,
+				CD34024C280D58C700D014A1 /* mainbg.png in Resources */,
+				CD34039B280D5AED00D014A1 /* mainbg@2x.png in Resources */,
+				CD340249280D58C700D014A1 /* add.png in Resources */,
+				CD34024B280D58C700D014A1 /* btnbg.png in Resources */,
+				CD340394280D5AED00D014A1 /* btnbg.png in Resources */,
+				CD34024D280D58C700D014A1 /* btnbg2@2x.png in Resources */,
+				CD34039A280D5AED00D014A1 /* edit.png in Resources */,
+				CD34024A280D58C700D014A1 /* btnbg2.png in Resources */,
+				CD340393280D5AED00D014A1 /* btnbg2.png in Resources */,
+				CD3401C0280D045100D014A1 /* MainMenu.xib in Resources */,
+				CD34039C280D5AED00D014A1 /* btnguide@2x.png in Resources */,
+				CD340399280D5AED00D014A1 /* remove.png in Resources */,
+				CD340252280D58C700D014A1 /* mainbg@2x.png in Resources */,
+				CD34024F280D58C700D014A1 /* btnbg@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3401C7280D045100D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3401D2280D045100D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3401E8280D052B00D014A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD3401B2280D044F00D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD340238280D588000D014A1 /* CustomButton.m in Sources */,
+				CD34023C280D58A800D014A1 /* ESharedUserDefault.m in Sources */,
+				CD340381280D5AAC00D014A1 /* ECMapping.m in Sources */,
+				CD340236280D588000D014A1 /* EEditorTableView.m in Sources */,
+				CD340231280D588000D014A1 /* EditorWindowController.m in Sources */,
+				CD3401C3280D045100D014A1 /* main.m in Sources */,
+				CD340237280D588000D014A1 /* EVerticalScrollView.m in Sources */,
+				CD340232280D588000D014A1 /* DetailWindowController.m in Sources */,
+				CD340234280D588000D014A1 /* EShortcutEntry.m in Sources */,
+				CD3401BB280D044F00D014A1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3401C5280D045100D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3401CE280D045100D014A1 /* EasyCode_XcodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3401D0280D045100D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3401D9280D045100D014A1 /* EasyCode_XcodeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD3401E6280D052B00D014A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD340327280D5A0700D014A1 /* ECMappingHelper.m in Sources */,
+				CD3402FE280D596100D014A1 /* ECGenerateHelper.m in Sources */,
+				CD340317280D598F00D014A1 /* FSElementCache.m in Sources */,
+				CD34037C280D5A7C00D014A1 /* ECMappingForObjectiveC.m in Sources */,
+				CD340318280D598F00D014A1 /* FSElementProperty.m in Sources */,
+				CD34031F280D598F00D014A1 /* FSInterfaceProcessor.m in Sources */,
+				CD340319280D598F00D014A1 /* FSElementPool.m in Sources */,
+				CD340324280D59B400D014A1 /* NSString+PDRegex.m in Sources */,
+				CD3401F3280D052B00D014A1 /* SourceEditorExtension.m in Sources */,
+				CD340256280D58FC00D014A1 /* EasyCodeManager.m in Sources */,
+				CD34031E280D598F00D014A1 /* FSImpProcessor.m in Sources */,
+				CD3401F6280D052B00D014A1 /* SourceEditorCommand.m in Sources */,
+				CD34031C280D598F00D014A1 /* FSProtocolProcessor.m in Sources */,
+				CD340320280D598F00D014A1 /* ECFileParser.m in Sources */,
+				CD340384280D5AC800D014A1 /* ECMappingForSwift.m in Sources */,
+				CD34031D280D598F00D014A1 /* FSElementProcessor.m in Sources */,
+				CD34031B280D598F00D014A1 /* FSCategoryProcessor.m in Sources */,
+				CD34031A280D598F00D014A1 /* FSExtensionProcessor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD3401CB280D045100D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3401B5280D044F00D014A1 /* EasyCode-Xcode */;
+			targetProxy = CD3401CA280D045100D014A1 /* PBXContainerItemProxy */;
+		};
+		CD3401D6280D045100D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3401B5280D044F00D014A1 /* EasyCode-Xcode */;
+			targetProxy = CD3401D5280D045100D014A1 /* PBXContainerItemProxy */;
+		};
+		CD3401FA280D052B00D014A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD3401E9280D052B00D014A1 /* EC */;
+			targetProxy = CD3401F9280D052B00D014A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD3401BE280D045100D014A1 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD3401BF280D045100D014A1 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD3401DB280D045100D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD3401DC280D045100D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD3401DE280D045100D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EasyCode-Xcode/EasyCode_Xcode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "EasyCode-Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD3401DF280D045100D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "EasyCode-Xcode/EasyCode_Xcode.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = "EasyCode-Xcode/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-Xcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD3401E1280D045100D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = "EasyCode-XcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-XcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyCode-Xcode.app/Contents/MacOS/EasyCode-Xcode";
+			};
+			name = Debug;
+		};
+		CD3401E2280D045100D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = "EasyCode-XcodeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-XcodeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyCode-Xcode.app/Contents/MacOS/EasyCode-Xcode";
+			};
+			name = Release;
+		};
+		CD3401E4280D045100D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = "EasyCode-XcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-XcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "EasyCode-Xcode";
+			};
+			name = Debug;
+		};
+		CD3401E5280D045100D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				INFOPLIST_FILE = "EasyCode-XcodeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-XcodeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "EasyCode-Xcode";
+			};
+			name = Release;
+		};
+		CD3401FD280D052B00D014A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EC/EC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = EC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-Xcode.EC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD3401FE280D052B00D014A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = EC/EC.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = EC/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Big-Nerd-Ranch.EasyCode-Xcode.EC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD3401B1280D044F00D014A1 /* Build configuration list for PBXProject "EasyCode-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3401DB280D045100D014A1 /* Debug */,
+				CD3401DC280D045100D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3401DD280D045100D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-Xcode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3401DE280D045100D014A1 /* Debug */,
+				CD3401DF280D045100D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3401E0280D045100D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-XcodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3401E1280D045100D014A1 /* Debug */,
+				CD3401E2280D045100D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3401E3280D045100D014A1 /* Build configuration list for PBXNativeTarget "EasyCode-XcodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3401E4280D045100D014A1 /* Debug */,
+				CD3401E5280D045100D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD3401FC280D052B00D014A1 /* Build configuration list for PBXNativeTarget "EC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD3401FD280D052B00D014A1 /* Debug */,
+				CD3401FE280D052B00D014A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD3401AE280D044F00D014A1 /* Project object */;
+}

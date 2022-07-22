@@ -1,0 +1,923 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD045AB428601D0600B7AA14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD045AB328601D0600B7AA14 /* AppDelegate.m */; };
+		CD045AB628601D0900B7AA14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD045AB528601D0900B7AA14 /* Assets.xcassets */; };
+		CD045AB928601D0900B7AA14 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD045AB728601D0900B7AA14 /* MainMenu.xib */; };
+		CD045ABB28601D0900B7AA14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD045ABA28601D0900B7AA14 /* main.m */; };
+		CD045AC628601D0900B7AA14 /* ClangToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD045AC528601D0900B7AA14 /* ClangToolsTests.m */; };
+		CD045AD028601D0900B7AA14 /* ClangToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD045ACF28601D0900B7AA14 /* ClangToolsUITests.m */; };
+		CD045AD228601D0900B7AA14 /* ClangToolsUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD045AD128601D0900B7AA14 /* ClangToolsUITestsLaunchTests.m */; };
+		CD045AE528601D3200B7AA14 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD045AE428601D3200B7AA14 /* Cocoa.framework */; };
+		CD045AE728601D3200B7AA14 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD045AE628601D3200B7AA14 /* XcodeKit.framework */; };
+		CD045AEB28601D3200B7AA14 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD045AEA28601D3200B7AA14 /* SourceEditorExtension.m */; };
+		CD045AEE28601D3300B7AA14 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD045AED28601D3300B7AA14 /* SourceEditorCommand.m */; };
+		CD045AF328601D3300B7AA14 /* ClangFormat.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD045AE228601D3200B7AA14 /* ClangFormat.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD045AFC28601DA700B7AA14 /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD045AF828601D3F00B7AA14 /* XcodeKit.framework */; };
+		CD045AFD28601DA700B7AA14 /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD045AF828601D3F00B7AA14 /* XcodeKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD045B5B286040A400B7AA14 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD045AE428601D3200B7AA14 /* Cocoa.framework */; };
+		CD045B60286040A400B7AA14 /* SourceEditorExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = CD045B5F286040A400B7AA14 /* SourceEditorExtension.m */; };
+		CD045B63286040A400B7AA14 /* SourceEditorCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CD045B62286040A400B7AA14 /* SourceEditorCommand.m */; };
+		CD045B68286040A400B7AA14 /* HeaderTool.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = CD045B5A286040A400B7AA14 /* HeaderTool.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		CD045B8C28604BFA00B7AA14 /* formattest in Resources */ = {isa = PBXBuildFile; fileRef = CD045B8A2860499200B7AA14 /* formattest */; };
+		CDEC8CAF28617B94002833FA /* XcodeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD045AF828601D3F00B7AA14 /* XcodeKit.framework */; };
+		CDEC8CB028617B94002833FA /* XcodeKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD045AF828601D3F00B7AA14 /* XcodeKit.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD045AC228601D0900B7AA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD045AA728601D0600B7AA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD045AAE28601D0600B7AA14;
+			remoteInfo = ClangTools;
+		};
+		CD045ACC28601D0900B7AA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD045AA728601D0600B7AA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD045AAE28601D0600B7AA14;
+			remoteInfo = ClangTools;
+		};
+		CD045AF128601D3300B7AA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD045AA728601D0600B7AA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD045AE128601D3200B7AA14;
+			remoteInfo = ClangFormat;
+		};
+		CD045B66286040A400B7AA14 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD045AA728601D0600B7AA14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD045B59286040A400B7AA14;
+			remoteInfo = HeaderTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD045AF728601D3300B7AA14 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				CD045AF328601D3300B7AA14 /* ClangFormat.appex in Embed App Extensions */,
+				CD045B68286040A400B7AA14 /* HeaderTool.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045AFE28601DA700B7AA14 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CD045AFD28601DA700B7AA14 /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDEC8CB128617B94002833FA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CDEC8CB028617B94002833FA /* XcodeKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD045AAF28601D0600B7AA14 /* ClangTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClangTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD045AB228601D0600B7AA14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD045AB328601D0600B7AA14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD045AB528601D0900B7AA14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD045AB828601D0900B7AA14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CD045ABA28601D0900B7AA14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD045ABC28601D0900B7AA14 /* ClangTools.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClangTools.entitlements; sourceTree = "<group>"; };
+		CD045AC128601D0900B7AA14 /* ClangToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClangToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD045AC528601D0900B7AA14 /* ClangToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClangToolsTests.m; sourceTree = "<group>"; };
+		CD045ACB28601D0900B7AA14 /* ClangToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClangToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD045ACF28601D0900B7AA14 /* ClangToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClangToolsUITests.m; sourceTree = "<group>"; };
+		CD045AD128601D0900B7AA14 /* ClangToolsUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ClangToolsUITestsLaunchTests.m; sourceTree = "<group>"; };
+		CD045AE228601D3200B7AA14 /* ClangFormat.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ClangFormat.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD045AE428601D3200B7AA14 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CD045AE628601D3200B7AA14 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD045AE928601D3200B7AA14 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD045AEA28601D3200B7AA14 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD045AEC28601D3200B7AA14 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD045AED28601D3300B7AA14 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD045AEF28601D3300B7AA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD045AF028601D3300B7AA14 /* ClangFormat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ClangFormat.entitlements; sourceTree = "<group>"; };
+		CD045AF828601D3F00B7AA14 /* XcodeKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XcodeKit.framework; path = Library/Frameworks/XcodeKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD045B5A286040A400B7AA14 /* HeaderTool.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HeaderTool.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD045B5E286040A400B7AA14 /* SourceEditorExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorExtension.h; sourceTree = "<group>"; };
+		CD045B5F286040A400B7AA14 /* SourceEditorExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorExtension.m; sourceTree = "<group>"; };
+		CD045B61286040A400B7AA14 /* SourceEditorCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SourceEditorCommand.h; sourceTree = "<group>"; };
+		CD045B62286040A400B7AA14 /* SourceEditorCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SourceEditorCommand.m; sourceTree = "<group>"; };
+		CD045B64286040A400B7AA14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD045B65286040A400B7AA14 /* HeaderTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HeaderTool.entitlements; sourceTree = "<group>"; };
+		CD045B8A2860499200B7AA14 /* formattest */ = {isa = PBXFileReference; lastKnownFileType = folder; path = formattest; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD045AAC28601D0600B7AA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045ABE28601D0900B7AA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045AC828601D0900B7AA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045ADF28601D3200B7AA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD045AFC28601DA700B7AA14 /* XcodeKit.framework in Frameworks */,
+				CD045AE528601D3200B7AA14 /* Cocoa.framework in Frameworks */,
+				CD045AE728601D3200B7AA14 /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045B57286040A400B7AA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD045B5B286040A400B7AA14 /* Cocoa.framework in Frameworks */,
+				CDEC8CAF28617B94002833FA /* XcodeKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD045AA628601D0600B7AA14 = {
+			isa = PBXGroup;
+			children = (
+				CD045AB128601D0600B7AA14 /* ClangTools */,
+				CD045AC428601D0900B7AA14 /* ClangToolsTests */,
+				CD045ACE28601D0900B7AA14 /* ClangToolsUITests */,
+				CD045AE828601D3200B7AA14 /* ClangFormat */,
+				CD045B5D286040A400B7AA14 /* HeaderTool */,
+				CD045AE328601D3200B7AA14 /* Frameworks */,
+				CD045AB028601D0600B7AA14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD045AB028601D0600B7AA14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD045AAF28601D0600B7AA14 /* ClangTools.app */,
+				CD045AC128601D0900B7AA14 /* ClangToolsTests.xctest */,
+				CD045ACB28601D0900B7AA14 /* ClangToolsUITests.xctest */,
+				CD045AE228601D3200B7AA14 /* ClangFormat.appex */,
+				CD045B5A286040A400B7AA14 /* HeaderTool.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD045AB128601D0600B7AA14 /* ClangTools */ = {
+			isa = PBXGroup;
+			children = (
+				CD045AB228601D0600B7AA14 /* AppDelegate.h */,
+				CD045AB328601D0600B7AA14 /* AppDelegate.m */,
+				CD045AB528601D0900B7AA14 /* Assets.xcassets */,
+				CD045AB728601D0900B7AA14 /* MainMenu.xib */,
+				CD045ABA28601D0900B7AA14 /* main.m */,
+				CD045ABC28601D0900B7AA14 /* ClangTools.entitlements */,
+				CD045B8A2860499200B7AA14 /* formattest */,
+			);
+			path = ClangTools;
+			sourceTree = "<group>";
+		};
+		CD045AC428601D0900B7AA14 /* ClangToolsTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD045AC528601D0900B7AA14 /* ClangToolsTests.m */,
+			);
+			path = ClangToolsTests;
+			sourceTree = "<group>";
+		};
+		CD045ACE28601D0900B7AA14 /* ClangToolsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CD045ACF28601D0900B7AA14 /* ClangToolsUITests.m */,
+				CD045AD128601D0900B7AA14 /* ClangToolsUITestsLaunchTests.m */,
+			);
+			path = ClangToolsUITests;
+			sourceTree = "<group>";
+		};
+		CD045AE328601D3200B7AA14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD045AF828601D3F00B7AA14 /* XcodeKit.framework */,
+				CD045AE428601D3200B7AA14 /* Cocoa.framework */,
+				CD045AE628601D3200B7AA14 /* XcodeKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD045AE828601D3200B7AA14 /* ClangFormat */ = {
+			isa = PBXGroup;
+			children = (
+				CD045AE928601D3200B7AA14 /* SourceEditorExtension.h */,
+				CD045AEA28601D3200B7AA14 /* SourceEditorExtension.m */,
+				CD045AEC28601D3200B7AA14 /* SourceEditorCommand.h */,
+				CD045AED28601D3300B7AA14 /* SourceEditorCommand.m */,
+				CD045AEF28601D3300B7AA14 /* Info.plist */,
+				CD045AF028601D3300B7AA14 /* ClangFormat.entitlements */,
+			);
+			path = ClangFormat;
+			sourceTree = "<group>";
+		};
+		CD045B5D286040A400B7AA14 /* HeaderTool */ = {
+			isa = PBXGroup;
+			children = (
+				CD045B5E286040A400B7AA14 /* SourceEditorExtension.h */,
+				CD045B5F286040A400B7AA14 /* SourceEditorExtension.m */,
+				CD045B61286040A400B7AA14 /* SourceEditorCommand.h */,
+				CD045B62286040A400B7AA14 /* SourceEditorCommand.m */,
+				CD045B64286040A400B7AA14 /* Info.plist */,
+				CD045B65286040A400B7AA14 /* HeaderTool.entitlements */,
+			);
+			path = HeaderTool;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD045AAE28601D0600B7AA14 /* ClangTools */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD045AD528601D0900B7AA14 /* Build configuration list for PBXNativeTarget "ClangTools" */;
+			buildPhases = (
+				CD045AAB28601D0600B7AA14 /* Sources */,
+				CD045AAC28601D0600B7AA14 /* Frameworks */,
+				CD045AAD28601D0600B7AA14 /* Resources */,
+				CD045AF728601D3300B7AA14 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD045AF228601D3300B7AA14 /* PBXTargetDependency */,
+				CD045B67286040A400B7AA14 /* PBXTargetDependency */,
+			);
+			name = ClangTools;
+			productName = ClangTools;
+			productReference = CD045AAF28601D0600B7AA14 /* ClangTools.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD045AC028601D0900B7AA14 /* ClangToolsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD045AD828601D0900B7AA14 /* Build configuration list for PBXNativeTarget "ClangToolsTests" */;
+			buildPhases = (
+				CD045ABD28601D0900B7AA14 /* Sources */,
+				CD045ABE28601D0900B7AA14 /* Frameworks */,
+				CD045ABF28601D0900B7AA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD045AC328601D0900B7AA14 /* PBXTargetDependency */,
+			);
+			name = ClangToolsTests;
+			productName = ClangToolsTests;
+			productReference = CD045AC128601D0900B7AA14 /* ClangToolsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CD045ACA28601D0900B7AA14 /* ClangToolsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD045ADB28601D0900B7AA14 /* Build configuration list for PBXNativeTarget "ClangToolsUITests" */;
+			buildPhases = (
+				CD045AC728601D0900B7AA14 /* Sources */,
+				CD045AC828601D0900B7AA14 /* Frameworks */,
+				CD045AC928601D0900B7AA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD045ACD28601D0900B7AA14 /* PBXTargetDependency */,
+			);
+			name = ClangToolsUITests;
+			productName = ClangToolsUITests;
+			productReference = CD045ACB28601D0900B7AA14 /* ClangToolsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CD045AE128601D3200B7AA14 /* ClangFormat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD045AF428601D3300B7AA14 /* Build configuration list for PBXNativeTarget "ClangFormat" */;
+			buildPhases = (
+				CD045ADE28601D3200B7AA14 /* Sources */,
+				CD045ADF28601D3200B7AA14 /* Frameworks */,
+				CD045AE028601D3200B7AA14 /* Resources */,
+				CD045AFE28601DA700B7AA14 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClangFormat;
+			productName = ClangFormat;
+			productReference = CD045AE228601D3200B7AA14 /* ClangFormat.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+		CD045B59286040A400B7AA14 /* HeaderTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD045B69286040A400B7AA14 /* Build configuration list for PBXNativeTarget "HeaderTool" */;
+			buildPhases = (
+				CD045B56286040A400B7AA14 /* Sources */,
+				CD045B57286040A400B7AA14 /* Frameworks */,
+				CD045B58286040A400B7AA14 /* Resources */,
+				CDEC8CB128617B94002833FA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeaderTool;
+			productName = HeaderTool;
+			productReference = CD045B5A286040A400B7AA14 /* HeaderTool.appex */;
+			productType = "com.apple.product-type.xcode-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD045AA728601D0600B7AA14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					CD045AAE28601D0600B7AA14 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CD045AC028601D0900B7AA14 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CD045AAE28601D0600B7AA14;
+					};
+					CD045ACA28601D0900B7AA14 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = CD045AAE28601D0600B7AA14;
+					};
+					CD045AE128601D3200B7AA14 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					CD045B59286040A400B7AA14 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = CD045AAA28601D0600B7AA14 /* Build configuration list for PBXProject "ClangTools" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD045AA628601D0600B7AA14;
+			productRefGroup = CD045AB028601D0600B7AA14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD045AAE28601D0600B7AA14 /* ClangTools */,
+				CD045AC028601D0900B7AA14 /* ClangToolsTests */,
+				CD045ACA28601D0900B7AA14 /* ClangToolsUITests */,
+				CD045AE128601D3200B7AA14 /* ClangFormat */,
+				CD045B59286040A400B7AA14 /* HeaderTool */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD045AAD28601D0600B7AA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD045AB628601D0900B7AA14 /* Assets.xcassets in Resources */,
+				CD045AB928601D0900B7AA14 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045ABF28601D0900B7AA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045AC928601D0900B7AA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045AE028601D3200B7AA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD045B8C28604BFA00B7AA14 /* formattest in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045B58286040A400B7AA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD045AAB28601D0600B7AA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD045ABB28601D0900B7AA14 /* main.m in Sources */,
+				CD045AB428601D0600B7AA14 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045ABD28601D0900B7AA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD045AC628601D0900B7AA14 /* ClangToolsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045AC728601D0900B7AA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD045AD228601D0900B7AA14 /* ClangToolsUITestsLaunchTests.m in Sources */,
+				CD045AD028601D0900B7AA14 /* ClangToolsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045ADE28601D3200B7AA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD045AEB28601D3200B7AA14 /* SourceEditorExtension.m in Sources */,
+				CD045AEE28601D3300B7AA14 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD045B56286040A400B7AA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD045B60286040A400B7AA14 /* SourceEditorExtension.m in Sources */,
+				CD045B63286040A400B7AA14 /* SourceEditorCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD045AC328601D0900B7AA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD045AAE28601D0600B7AA14 /* ClangTools */;
+			targetProxy = CD045AC228601D0900B7AA14 /* PBXContainerItemProxy */;
+		};
+		CD045ACD28601D0900B7AA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD045AAE28601D0600B7AA14 /* ClangTools */;
+			targetProxy = CD045ACC28601D0900B7AA14 /* PBXContainerItemProxy */;
+		};
+		CD045AF228601D3300B7AA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD045AE128601D3200B7AA14 /* ClangFormat */;
+			targetProxy = CD045AF128601D3300B7AA14 /* PBXContainerItemProxy */;
+		};
+		CD045B67286040A400B7AA14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD045B59286040A400B7AA14 /* HeaderTool */;
+			targetProxy = CD045B66286040A400B7AA14 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD045AB728601D0900B7AA14 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD045AB828601D0900B7AA14 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD045AD328601D0900B7AA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CD045AD428601D0900B7AA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CD045AD628601D0900B7AA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClangTools/ClangTools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ClangTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CD045AD728601D0900B7AA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ClangTools/ClangTools.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainNibFile = MainMenu;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ClangTools;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		CD045AD928601D0900B7AA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ClangToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClangTools.app/Contents/MacOS/ClangTools";
+			};
+			name = Debug;
+		};
+		CD045ADA28601D0900B7AA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ClangToolsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClangTools.app/Contents/MacOS/ClangTools";
+			};
+			name = Release;
+		};
+		CD045ADC28601D0900B7AA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ClangToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = ClangTools;
+			};
+			name = Debug;
+		};
+		CD045ADD28601D0900B7AA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ClangToolsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TEST_TARGET_NAME = ClangTools;
+			};
+			name = Release;
+		};
+		CD045AF528601D3300B7AA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ClangFormat/ClangFormat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClangFormat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClangFormat;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ClangTools.ClangFormat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CD045AF628601D3300B7AA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ClangFormat/ClangFormat.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClangFormat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClangFormat;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ClangTools.ClangFormat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+		CD045B6A286040A400B7AA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HeaderTool/HeaderTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeaderTool/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HeaderTool;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ClangTools.HeaderTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Debug;
+		};
+		CD045B6B286040A400B7AA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = HeaderTool/HeaderTool.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C4RJDT5BP6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HeaderTool/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = HeaderTool;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = us.zoom.ClangTools.HeaderTool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD045AAA28601D0600B7AA14 /* Build configuration list for PBXProject "ClangTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD045AD328601D0900B7AA14 /* Debug */,
+				CD045AD428601D0900B7AA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD045AD528601D0900B7AA14 /* Build configuration list for PBXNativeTarget "ClangTools" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD045AD628601D0900B7AA14 /* Debug */,
+				CD045AD728601D0900B7AA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD045AD828601D0900B7AA14 /* Build configuration list for PBXNativeTarget "ClangToolsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD045AD928601D0900B7AA14 /* Debug */,
+				CD045ADA28601D0900B7AA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD045ADB28601D0900B7AA14 /* Build configuration list for PBXNativeTarget "ClangToolsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD045ADC28601D0900B7AA14 /* Debug */,
+				CD045ADD28601D0900B7AA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD045AF428601D3300B7AA14 /* Build configuration list for PBXNativeTarget "ClangFormat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD045AF528601D3300B7AA14 /* Debug */,
+				CD045AF628601D3300B7AA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD045B69286040A400B7AA14 /* Build configuration list for PBXNativeTarget "HeaderTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD045B6A286040A400B7AA14 /* Debug */,
+				CD045B6B286040A400B7AA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD045AA728601D0600B7AA14 /* Project object */;
+}
